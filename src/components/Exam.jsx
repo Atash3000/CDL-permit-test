@@ -38,15 +38,15 @@ function Exam() {
             const isClicked = selectedAnswer && selectedAnswer === key
             const isAnswered = selectedAnswer !== null
 
-            let bgColor = 'bg-lime-50'
+            let bgColor = '#fff'
 
             if (isAnswered && key === questionsArr[currentIndex].answer) {
-              bgColor = 'bg-green-500'
+              bgColor = 'green'
             } else if (isAnswered && isClicked) {
-              bgColor = 'bg-red-500'
+              bgColor = 'red'
             }
             return (
-              <li className={` pl-2 pt-2  h-12 overflow-auto  mb-2 rounded-lg leading-tight text-base bg-lime-50 ${bgColor}`} onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined} key={key}>
+              <li style={{ background: bgColor }} className={` pl-2 pt-2  h-12 overflow-auto  mb-2 rounded-lg leading-tight text-base bg-lime-50 `} onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined} key={key}>
                 {value}
               </li>
             )
