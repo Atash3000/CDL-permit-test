@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
 
 function WelcomePage() {
   const onButtonClick = () => {}
@@ -25,11 +24,11 @@ function WelcomePage() {
           </div>
         </div>
       </header>
-      <div className='content-1 px-6 py-10'>
+      <div className='content-1 px-6 py-10 fade-up'>
         <h3 className='text-left text-xl mb-4'>Start with a free CDL permit practice test!</h3>
         <p className=' text-sm'>We offer a variety of sample permit test questions and online cheat sheets to help you prepare for the real exam.</p>
       </div>
-      <div className='content-2 bg-gray-900 text-gray-100 px-4 py-6 '>
+      <div className=' fade-up content-2 bg-gray-900 text-gray-100 px-4 py-6 '>
         <h4 className='text-2xl text-center font-medium mb-6'>Studying for the permit test?</h4>
         <p>
           At CDL Permit Pro, we understand how challenging it can be to pass the CDL permit test on your first try. That's why we've created a comprehensive online practice test platform to help you prepare and gain the confidence you need to ace the exam. Our app offers a variety of CDL permit

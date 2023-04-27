@@ -18,7 +18,7 @@ function StatesPage() {
   }
   console.log('setSelectedState :>> ', selectedState)
   return (
-    <section className='bg-lime-500 relative  w-full   flex flex-col justify-start  '>
+    <section className=' gradient relative  w-full   flex flex-col justify-start  '>
       <div className='bg-lime-950 py-10 flex justify-center items-center '>
         <p className='text-center font-semibold text-xl text-gray-50 '>Select Your State</p>
       </div>
