@@ -29,12 +29,12 @@ function ExamTypePage() {
       <div className='bg-lime-950 py-10'>
         <p className='text-center font-bold text-xl text-lime-50'>{states[selectedState]} CDL </p>
       </div>
-      <div className='mt-5 overflow-y-scroll h-full pt-5 '>
-        <ul className=' w-screen flex flex-col items-center'>
+      <div className='mt-5 overflow-y-scroll h-full pt-14 '>
+        <ul className=' w-screen flex flex-col  items-center px-4'>
           {Object.entries(examTypes).map(([key, value]) => {
             const isSelected = false
             return (
-              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-4/5 text-lg  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamTypeChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-full  shadow-black text-lg  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamTypeChange.bind(this, key)} key={key}>
                 {key}
               </li>
             )

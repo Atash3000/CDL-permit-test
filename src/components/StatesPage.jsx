@@ -27,7 +27,7 @@ function StatesPage() {
           {Object.entries(states).map(([key, value]) => {
             const isSelected = selectedState === key
             return (
-              <li className={`fade-up bg-lime-50 text-lime-950 text-lg font-semibold w-full  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onStateChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-lime-50 text-lime-950 text-lg font-semibold w-full shadow-black  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onStateChange.bind(this, key)} key={key}>
                 {value}
               </li>
             )

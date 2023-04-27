@@ -40,8 +40,8 @@ function Exam() {
   return (
     <section className='gradient relative  w-screen h-screen flex flex-col justify-start  overflow-hidden'>
       <div className='bg-lime-950 text-lime-50 font-semibold flex flex-col items-center py-8'>
-        <h3>{selectedExamType}</h3>
-        <p>
+        <h3 className='text-lg'>{selectedExamType}</h3>
+        <p className='text-lg'>
           Question {currentIndex + 1} of {totalCount}
         </p>
       </div>
@@ -59,7 +59,7 @@ function Exam() {
       {!testComleted && (
         <>
           <div className='fade-left px-4 mt-4' key={currentIndex}>
-            <p className='mb-4 text-lime-950 font-semibold'>{title}</p>
+            <p className='mb-4 text-gray-900 font-medium text-lg '>{title}</p>
             <ul>
               {Object.entries(options).map(([key, value]) => {
                 const isClicked = selectedAnswer && selectedAnswer === key
@@ -73,7 +73,7 @@ function Exam() {
                   bgColor = 'red'
                 }
                 return (
-                  <li style={{ background: bgColor }} className={` pl-2 pt-2  h-12 overflow-auto  mb-2 rounded-lg leading-tight text-base bg-lime-50 `} onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined} key={key}>
+                  <li style={{ background: bgColor }} className={` pl-2 py-4  h-16 flex items-center justify-start  overflow-hidden  mb-2 rounded-lg shadow-black leading-tight text-base bg-lime-50 `} onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined} key={key}>
                     {value}
                   </li>
                 )
@@ -81,7 +81,7 @@ function Exam() {
             </ul>
           </div>
           <div className='flex flex-row items-center justify-end px-8 mt-4 '>
-            <button disabled={btnDisabled} className={`${!btnDisabled ? 'opacity-1' : 'opacity-0'} bg-lime-50 rounded-md w-1/2 py-1 font-semibold`} onClick={onHandleNext}>
+            <button disabled={btnDisabled} className={`${!btnDisabled ? 'opacity-1' : 'opacity-0'} bg-lime-50 rounded-md w-full py-3 text-lg mt-4 font-semibold`} onClick={onHandleNext}>
               Next
             </button>
           </div>
