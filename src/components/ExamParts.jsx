@@ -23,16 +23,16 @@ function ExamParts() {
 
   //   const examParts = createExamParts(examQuestionsArr, partCount)
   return (
-    <section className='bg-lime-500 relative   w-screen h-screen flex flex-col justify-between overflow-hidden'>
-      <div className='bg-lime-950 py-8'>
-        <p className='text-center font-bold text-lime-100'> {selectedExamType} </p>
+    <section className='gradient relative   w-screen h-screen flex flex-col justify-between overflow-hidden'>
+      <div className='bg-lime-950 py-10'>
+        <p className='text-center font-bold text-xl text-lime-50'> {selectedExamType} </p>
       </div>
       <div className='mt-5 overflow-y-scroll h-full'>
         <ul className=' w-screen flex flex-col items-center  '>
           {Object.entries(examParts).map(([key, value]) => {
             const isSelected = false
             return (
-              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-4/5  py-3  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamPartChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-4/5  py-5 text-lg  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamPartChange.bind(this, key)} key={key}>
                 {key}
               </li>
             )

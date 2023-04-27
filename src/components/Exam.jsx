@@ -38,7 +38,7 @@ function Exam() {
   }, [currentIndex])
 
   return (
-    <section className='bg-lime-500 relative  w-screen h-screen flex flex-col justify-start  overflow-hidden'>
+    <section className='gradient relative  w-screen h-screen flex flex-col justify-start  overflow-hidden'>
       <div className='bg-lime-950 text-lime-50 font-semibold flex flex-col items-center py-8'>
         <h3>{selectedExamType}</h3>
         <p>
