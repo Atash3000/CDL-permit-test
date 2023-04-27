@@ -5,15 +5,13 @@ import { Helmet } from 'react-helmet'
 function WelcomePage() {
   const onButtonClick = () => {}
   return (
-    <section className='bg-lime-50 h-screen  flex flex-col justify-between '>
+    <section className='bg-lime-50 h-screen flex flex-col  '>
       <header className='bg-image text-gray-50 pb-12  '>
         <div className='inner-header fade-up w-4/5 md:w-2/3  m-auto '>
           <div className='logo mt-6'>
-            <h1 className=' text-gray-50  text-2xl md:text-4xl text-center font-semibold'>
-              CDL Permit <small className='text-lime-500 '> pro</small>
-            </h1>
+            <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='w-1/2 m-auto' />
           </div>
-          <div className='mt-12 md:mt-16   '>
+          <div className='mt-12 md:mt-16'>
             <p style={{ lineHeight: '1.5' }} className='text-3xl  md:text-7xl font-medium md:font-normal text-center mb-6 tracking-wide'>
               Ace your permit test with our straightforward solution
             </p>
