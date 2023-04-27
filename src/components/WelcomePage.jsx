@@ -9,7 +9,7 @@ function WelcomePage() {
       <header className='bg-image text-gray-50 pb-12  '>
         <div className='inner-header fade-up w-4/5 md:w-2/3  m-auto '>
           <div className='logo mt-6'>
-            <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='w-1/2 m-auto text-bold' />
+            <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='w-2/3 m-auto text-bold' />
           </div>
           <div className='mt-12 md:mt-16'>
             <p style={{ lineHeight: '1.5' }} className='text-3xl  md:text-7xl font-medium md:font-normal text-center mb-6 tracking-wide'>
