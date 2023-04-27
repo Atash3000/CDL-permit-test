@@ -1,10 +1,12 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useState, useEffect } from 'react'
 import { states } from '../data/states'
 import { data } from '../data/data'
 export const configContext = createContext()
 
 function CdlConfig(props) {
+  const configObj = JSON.parse(localStorage.getItem('config'))
   const [selectedState, setSelectedState] = useState('')
+  const [config, setConfig] = useState(configObj ?? {})
   const [selectedExamType, setSelectedExamtype] = useState('')
   const [selectedExamPart, setSelectedExamPart] = useState('')
   const examTypes = { 'General Knowledge': data, Trailer: data, 'Air Brake': data }
@@ -38,6 +40,13 @@ function CdlConfig(props) {
   const examParts = createExamParts(examQuestionsArr, partCount)
   const questionsArr = examParts[selectedExamPart] ?? []
 
+  useEffect(() => {
+    // save to local storage
+    if (Object.keys(config).length > 0) {
+      localStorage.setItem('config', JSON.stringify(config))
+    }
+  }, [config])
+
   const values = {
     states,
     selectedState,
@@ -50,7 +59,9 @@ function CdlConfig(props) {
     createURLFromString,
     createExamParts,
     examParts,
-    questionsArr
+    questionsArr,
+    config,
+    setConfig
   }
   return <configContext.Provider value={values}>{props.children}</configContext.Provider>
 }
