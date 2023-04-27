@@ -18,10 +18,10 @@ function WelcomePage() {
             </p>
             <h3 className=' text-center font-semibold text-base md:text-2xl'>Select your state to get started</h3>
           </div>
-          <div className='flex items-center justify-center mt-8 md:mt-14  m-auto w-full md:w-2/5 bg-lime-600 hover:bg-lime-500 '>
-            <Link to='/cdl' className='w-full rounded-md py-2 md:py-6 shadow-black text-center text-gray-50 '>
+          <div className='flex items-center justify-center mt-8 md:mt-14 shadow-black  m-auto w-full md:w-2/5 bg-lime-600 hover:bg-lime-500 rounded-md '>
+            <Link to='/cdl' className='w-full py-2 md:py-6 k text-center text-gray-50 '>
               <span className='block text-2xl md:text-4xl font-normal tracking-wider'>Start Now! </span>
-              <span className='block tracking-tight text-base md:text-xl font-normal mt-1 md:mt-2'>Free of charge</span>
+              <span className='block tracking-tight text-base md:text-xl font-normal mt-1 md:mt-2'>--- Free of charge ---</span>
             </Link>
           </div>
         </div>
