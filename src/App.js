@@ -6,7 +6,8 @@ import StatesPage from './components/StatesPage'
 import Exam from './components/Exam'
 import NotFoundPage from './components/NotFoundPage'
 import { Helmet } from 'react-helmet'
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/cdl/:usersState/:examType/:examPart' element={<Exam />} />
         <Route element={<NotFoundPage />} />
       </Routes>
+      <Analytics />
     </Fragment>
   )
 }
