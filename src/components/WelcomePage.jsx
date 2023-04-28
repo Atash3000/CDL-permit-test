@@ -11,7 +11,7 @@ function WelcomePage() {
             <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='w-1/2 m-auto text-bold' />
           </div>
           <div className='mt-12 md:mt-16'>
-            <p style={{ lineHeight: '1.5' }} className='text-3xl  md:text-7xl font-medium md:font-normal text-center mb-6 tracking-wide'>
+            <p style={{ lineHeight: '1.5' }} className='text-2xl  md:text-7xl font-medium md:font-normal text-center mb-6 tracking-wide'>
               Ace your permit test with our straightforward solution
             </p>
             <h3 className=' text-center font-semibold text-base md:text-2xl'>Select your state to get started</h3>
