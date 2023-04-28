@@ -34,7 +34,7 @@ function ExamTypePage() {
           {Object.entries(examTypes).map(([key, value]) => {
             const isSelected = false
             return (
-              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-full  shadow-black text-lg  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamTypeChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-gray-50 text-lime-950 font-semibold w-full  shadow shadow-blue-500/40 hover:shadow-indigo-500/40 text-lg  py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamTypeChange.bind(this, key)} key={key}>
                 {key}
               </li>
             )

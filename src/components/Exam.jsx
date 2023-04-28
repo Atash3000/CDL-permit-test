@@ -8,15 +8,19 @@ function Exam() {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [showAnswer, setShowAnswer] = useState(false)
   const [corretAnswers, setCorrectAnwers] = useState([])
+  const [isAnswerCorrect, setIsAnswerCorrect] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState([])
   const [testComleted, setTestComleted] = useState(false)
-  const { title, options } = questionsArr[currentIndex] ?? {}
+  const { title, options, explanation } = questionsArr[currentIndex] ?? {}
   const totalCount = questionsArr.length - 1
 
   const onSelectedAnswer = answer => {
     if (answer === questionsArr[currentIndex].answer) {
+      setIsAnswerCorrect(true)
       setCorrectAnwers([...corretAnswers, questionsArr[currentIndex].id])
     } else {
+      setIsAnswerCorrect(false)
+
       setWrongAnswers([...wrongAnswers, questionsArr[currentIndex].id])
     }
     setSelectedAnswer(answer)
@@ -38,16 +42,16 @@ function Exam() {
   }, [currentIndex])
 
   return (
-    <section className='gradient relative  w-screen h-screen flex flex-col justify-start  overflow-hidden'>
-      <div className='bg-lime-950 text-lime-50 font-semibold flex flex-col items-center py-8'>
-        <h3 className='text-lg'>{selectedExamType}</h3>
-        <p className='text-lg'>
+    <section className='relative gradient-2 bg-gray-50  w-screen h-screen flex flex-col justify-start  overflow-hidden'>
+      <div className='bg-lime-950 text-lime-50 font-semibold flex flex-col items-center py-4'>
+        <h3 className='text-base'>{selectedExamType}</h3>
+        <p className='text-base'>
           Question {currentIndex + 1} of {totalCount}
         </p>
       </div>
       {testComleted && (
         <div className=' w-full flex flex-col items-center justify-center'>
-          <h3 className='text-lime-950 text-xl '>Test comleted</h3>
+          <h3 className='text-lime-950 text-xl'>Test comleted</h3>
           <p className='text-lime-950 text-xl'> Total questions: {questionsArr.length - 1} </p>
           <p className='text-lime-950 text-xl'> Correct answers : {corretAnswers.length} </p>
           <p className='pb-4 text-lime-950 text-xl'>Wrongs answers : {wrongAnswers.length} </p>
@@ -59,7 +63,7 @@ function Exam() {
       {!testComleted && (
         <>
           <div className='fade-left px-4 mt-4' key={currentIndex}>
-            <p className='mb-4 text-gray-900 font-medium text-lg '>{title}</p>
+            <p className='mb-2 text-gray-900 font-medium text-lg'>{title}</p>
             <ul>
               {Object.entries(options).map(([key, value]) => {
                 const isClicked = selectedAnswer && selectedAnswer === key
@@ -68,20 +72,30 @@ function Exam() {
                 let bgColor = '#fff'
 
                 if (isAnswered && key === questionsArr[currentIndex].answer) {
-                  bgColor = 'green'
+                  bgColor = '#78d623'
                 } else if (isAnswered && isClicked) {
-                  bgColor = 'red'
+                  bgColor = '#ff1744'
                 }
                 return (
-                  <li style={{ background: bgColor }} className={` pl-2 py-4  h-16 flex items-center justify-start  overflow-hidden  mb-2 rounded-lg shadow-black leading-tight text-base bg-lime-50 `} onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined} key={key}>
+                  <li
+                    style={{ background: bgColor }}
+                    className={` pl-2 py-4 border-solid border-2 border-gray-500  h-16 flex items-center justify-start  overflow-hidden  mb-2 rounded-lg leading-tight text-base bg-lime-50 `}
+                    onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined}
+                    key={key}
+                  >
                     {value}
                   </li>
                 )
               })}
             </ul>
           </div>
+          {selectedAnswer && !isAnswerCorrect && (
+            <div className='explanation px-4  '>
+              <p className='text-gray-900 text-left'>{explanation}</p>
+            </div>
+          )}
           <div className='flex flex-row items-center justify-end px-8 mt-4 '>
-            <button disabled={btnDisabled} className={`${!btnDisabled ? 'opacity-1' : 'opacity-0'} bg-lime-50 rounded-md w-full py-3 text-lg mt-4 font-semibold`} onClick={onHandleNext}>
+            <button disabled={btnDisabled} className={`${!btnDisabled ? 'opacity-1' : 'opacity-0'} bg-lime-950 text-gray-100 rounded-md w-full py-3 text-lg mt-4 font-semibold`} onClick={onHandleNext}>
               Next
             </button>
           </div>

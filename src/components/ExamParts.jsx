@@ -32,7 +32,7 @@ function ExamParts() {
           {Object.entries(examParts).map(([key, value]) => {
             const isSelected = false
             return (
-              <li className={`fade-up bg-lime-50 text-lime-950 font-semibold w-full  py-5 text-lg  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamPartChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-gray-50 text-lime-950 font-semibold w-full  py-5 text-lg shadow shadow-blue-500/40 hover:shadow-indigo-500/40  capitalize rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onExamPartChange.bind(this, key)} key={key}>
                 {key}
               </li>
             )
