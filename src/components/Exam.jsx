@@ -79,7 +79,7 @@ function Exam() {
                 return (
                   <li
                     style={{ background: bgColor }}
-                    className={` pl-2 py-4 border-solid border-2 border-gray-500  h-16 flex items-center justify-start  overflow-hidden  mb-2 rounded-lg leading-tight text-base bg-lime-50 `}
+                    className={` px-2 py-6 border-solid border-2 border-gray-500   h-16 flex items-center justify-start  overflow-hidden  mb-2 rounded-lg leading-tight text-base bg-lime-50 `}
                     onClick={!isAnswered ? onSelectedAnswer.bind(this, key) : undefined}
                     key={key}
                   >
