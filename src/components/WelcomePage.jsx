@@ -13,7 +13,6 @@ function WelcomePage() {
             <p style={{ lineHeight: '1.7' }} className='  fade-up text-lg min-[350px]:text-2xl min-[450px]:text-3xl md:text-4xl font-medium   text-center  tracking-wide'>
               Ace your permit test with our straightforward solution
             </p>
-            <h3 className='fade-up  text-center font-semibold text-base md:text-2xl'>Select your state to get started</h3>
           </div>
           <Link to='/cdl' className=' fade-up  rounded-md bg-[#65a30c] hover:bg-[rgb(133,197,42)]  w-[65%] min-[400px]:w-[55%] min-[530px]:w-[45%] md:w-[40%] lg:w-[25%] py-2 md:py-4 lg:py-5 px-2 text-center text-gray-50 '>
             <span className='block text-lg md:text-xl lg:text-2xl  font-normal tracking-wider'>Start Now! </span>
