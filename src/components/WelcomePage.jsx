@@ -4,24 +4,21 @@ import { Link } from 'react-router-dom'
 function WelcomePage() {
   const onButtonClick = () => {}
   return (
-    <section className='bg-lime-50 h-screen flex flex-col  '>
-      <header className='bg-image text-gray-50 pb-12  '>
-        <div className='inner-header fade-up w-4/5 md:w-2/3  m-auto '>
-          <div className='logo mt-6'>
-            <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='w-1/2 m-auto text-bold' />
-          </div>
-          <div className='mt-12 md:mt-16'>
-            <p style={{ lineHeight: '1.5' }} className='text-2xl  md:text-7xl font-medium md:font-normal text-center mb-6 tracking-wide'>
+    <section className='h-screen flex flex-col relative '>
+      <header className='relative min-h-[70vh] text-gray-50'>
+        <div className='bg-image'></div>
+        <div className='h-full relative flex flex-col justify-end items-center pb-6'>
+          <img src={require('../assets/images/logo.png')} alt='CDL Permit PRO Logo' className='fade-up  w-1/3  md:w-1/4 lg:w-1/5 m-auto  mt-4 sm:mt-6' />
+          <div style={{ left: '50%' }} className=' absolute  top-[30%] transform -translate-x-1/2 -translate-y-1/2  w-full px-6'>
+            <p style={{ lineHeight: '1.7' }} className='  fade-up text-lg min-[350px]:text-2xl min-[450px]:text-3xl md:text-4xl font-medium   text-center  tracking-wide'>
               Ace your permit test with our straightforward solution
             </p>
-            <h3 className=' text-center font-semibold text-base md:text-2xl'>Select your state to get started</h3>
+            <h3 className='fade-up  text-center font-semibold text-base md:text-2xl'>Select your state to get started</h3>
           </div>
-          <div className=' bg-lime-500 hover:bg-lime-400 flex items-center justify-center mt-8 md:mt-14 shadow-black  m-auto w-full md:w-2/5  rounded-md '>
-            <Link to='/cdl' className='w-full py-2 md:py-6 k text-center text-gray-50 '>
-              <span className='block text-2xl md:text-4xl font-normal tracking-wider'>Start Now! </span>
-              <span className='block tracking-tight text-base md:text-xl font-normal mt-1 md:mt-2'>--- Free of charge ---</span>
-            </Link>
-          </div>
+          <Link to='/cdl' className=' fade-up  rounded-md bg-[#65a30c] hover:bg-[rgb(133,197,42)]  w-[65%] min-[400px]:w-[55%] min-[530px]:w-[45%] md:w-[40%] lg:w-[25%] py-2 md:py-4 lg:py-5 px-2 text-center text-gray-50 '>
+            <span className='block text-lg md:text-xl lg:text-2xl  font-normal tracking-wider'>Start Now! </span>
+            <span className='block tracking-tight text-sm md:text-base lg:text-lg font-normal mt-1'>--- Free of charge ---</span>
+          </Link>
         </div>
       </header>
       <div className='content-1 px-6 py-10 '>

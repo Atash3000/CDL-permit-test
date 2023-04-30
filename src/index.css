@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  min-width: 300px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -31,14 +32,19 @@ html {
   background-size: cover;
   width: 100%;
   height: 100%;
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1; /* This ensures the background is positioned below the header content */
+}
+@media (min-width: 992px) {
+  .bg-image {
+    filter: blur(9px); /* Increase the blur value for larger screens */
+  }
 }
 .content-1 {
   background-image: linear-gradient(94deg, #b3ffab 0%, #12fff7 100%);
 }
 
-.font-handwrite {
-  font-family: 'Courgette', cursive;
-}
 .gradient {
   background-image: linear-gradient(to bottom, #dae0e8, #9cedff, #3cfbec, #6bff9a, #d5f30b);
 }
