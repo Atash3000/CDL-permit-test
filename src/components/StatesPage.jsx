@@ -1,11 +1,13 @@
 import React, { useContext } from 'react'
 import { configContext } from '../context/CdlConfig'
 import { useNavigate } from 'react-router-dom'
+import { createURLFromString } from '../helpers/createURLFromString'
 
 function StatesPage() {
-  const { states, setSelectedState, selectedState, createURLFromString, setConfig, config } = useContext(configContext)
+  const { states, setSelectedState, selectedState, setConfig, config } = useContext(configContext)
   const navigate = useNavigate()
   const onStateChange = stateName => {
+    localStorage.setItem('lastSelectedState', stateName)
     setSelectedState(stateName)
     navigate('/cdl/' + createURLFromString(stateName))
   }

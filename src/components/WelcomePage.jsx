@@ -1,8 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { createURLFromString } from '../helpers/createURLFromString'
 
 function WelcomePage() {
-  const onButtonClick = () => {}
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    // check if user has been before on website
+    const lastSelectedState = localStorage.getItem('lastSelectedState')
+
+    if (lastSelectedState) {
+      navigate('/cdl/' + createURLFromString(lastSelectedState))
+    }
+  }, [navigate])
   return (
     <section className='h-screen flex flex-col relative '>
       <header className='relative min-h-[70vh] text-gray-50'>

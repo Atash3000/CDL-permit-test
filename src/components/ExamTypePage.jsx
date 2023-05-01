@@ -1,8 +1,10 @@
-import React, { useContext } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { configContext } from '../context/CdlConfig'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { createURLFromString } from '../helpers/createURLFromString'
+import Config from './Config'
 
 function isValidStateName(stateNameUrl, states) {
   return Object.values(states).find(name => name.replace(/\s+/g, '-').toLowerCase() === stateNameUrl.toLowerCase()) !== undefined
@@ -12,7 +14,8 @@ function stateNameFromURL(url, states) {
 }
 
 function ExamTypePage() {
-  const { selectedState, setSelectedState, examTypes, setSelectedExamtype, states, createURLFromString } = useContext(configContext)
+  const { examTypes, setSelectedExamtype, states } = useContext(configContext)
+  const [showConfig, setShowConfig] = useState(false)
   const navigate = useNavigate()
   const { stateName } = useParams()
   // Create the validation and conversion functions using the `states` object
@@ -55,6 +58,8 @@ function ExamTypePage() {
           })}
         </ul>
       </div>
+
+      <Config />
     </section>
   )
 }
