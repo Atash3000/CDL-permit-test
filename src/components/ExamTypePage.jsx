@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
 function ExamTypePage() {
-  const { selectedState, examTypes, setSelectedExamtype, selectedExamType, states, createURLFromString, config, setConfig } = useContext(configContext)
+  const { selectedState, examTypes, setSelectedExamtype, states, createURLFromString, config, setConfig } = useContext(configContext)
   const navigate = useNavigate()
   const location = useLocation()
   const currentPath = location.pathname

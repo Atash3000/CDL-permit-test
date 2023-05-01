@@ -42,7 +42,11 @@ html {
   }
 }
 .content-1 {
-  background-image: linear-gradient(94deg, #b3ffab 0%, #12fff7 100%);
+  background-image: linear-gradient(to bottom, #b5d5ec, #9bcfea, #7cc9e6, #56c3e0, #06bdd8);
+}
+
+.content-2 {
+  background-image: linear-gradient(to right bottom, #263037, #1e2f3b, #172d40, #0f2b45, #082949);
 }
 
 .gradient {

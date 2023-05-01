@@ -21,15 +21,21 @@ function WelcomePage() {
         </div>
       </header>
       <div className='content-1 px-6 py-10 '>
-        <h3 className='fade-up text-left text-xl mb-4'>Start with a free CDL permit practice test!</h3>
+        <h3 className='fade-up text-left text-xl mb-4'>Start your CDL journey with confidence by taking our free practice test!</h3>
         <p className=' fade-up text-sm'>We offer a variety of sample permit test questions and online cheat sheets to help you prepare for the real exam.</p>
       </div>
-      <div className='  content-2 bg-gray-900 text-gray-100 px-4 py-6 '>
-        <h4 className=' fade-up text-2xl text-center font-medium mb-6'>Studying for the permit test?</h4>
+      <div className='  content-2 text-gray-100 px-4 py-6 '>
+        <h4 className=' fade-up text-xl text-center font-medium mb-6'>Looking for help with the CDL permit test?</h4>
         <p className='fade-up'>
-          At CDL Permit Pro, we understand how challenging it can be to pass the CDL permit test on your first try. That's why we've created a comprehensive online practice test platform to help you prepare and gain the confidence you need to ace the exam. Our app offers a variety of CDL permit
-          practice tests covering all topics, including general knowledge, air brakes, and hazardous materials. We also provide detailed explanations and instant feedback to help you identify your weaknesses and improve your knowledge. With CDL Permit Pro, you'll have everything you need to pass
-          your CDL permit test with confidence. Try it today and get ready to start your journey on the open road!
+          Pass your CDL permit test with confidence using CDL Permit Pro's online practice test platform. Our comprehensive CDL permit practice tests cover all the topics you need to know, including general knowledge, air brakes, and hazardous materials. With detailed explanations and instant
+          feedback for each question, CDL Permit Pro ensures that you have all the resources you need to pass your CDL permit test with flying colors. Don't wait any longer, try CDL Permit Pro today and take the first step towards becoming a licensed CDL driver
+        </p>
+      </div>
+      <div className='content-1 text-gray-900 px-4 py-6 '>
+        <h4 className='fade-up text-xl text-center  mb-6'>Pass Your CDL Permit Test with Flying Colors: Use CDL Permit Pro</h4>
+        <p className='fade-up'>
+          Looking to pass your CDL permit test and start your truck driving career with confidence? CDL Permit Pro has got you covered! Our online practice test platform provides comprehensive CDL permit practice tests covering all the necessary topics, along with detailed explanations and instant
+          feedback to improve your knowledge and help you identify your weaknesses in real-time. Try CDL Permit Pro today and take the first step towards your new career as a licensed CDL driver
         </p>
       </div>
     </section>

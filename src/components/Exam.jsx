@@ -1,18 +1,21 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { configContext } from '../context/CdlConfig'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 function Exam() {
-  const { questionsArr, selectedExamType } = useContext(configContext)
+  const location = useLocation()
+  const navigate = useNavigate()
+  const currentPath = location.pathname
+  const { questionsArr, selectedExamType, selectedExamPart } = useContext(configContext)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [btnDisabled, setBtnDisable] = useState(true)
   const [selectedAnswer, setSelectedAnswer] = useState(null)
-  const [showAnswer, setShowAnswer] = useState(false)
   const [corretAnswers, setCorrectAnwers] = useState([])
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState([])
   const [testComleted, setTestComleted] = useState(false)
   const { title, options, explanation } = questionsArr[currentIndex] ?? {}
-  const totalCount = questionsArr.length - 1
+  const totalCount = questionsArr.length
 
   const onSelectedAnswer = answer => {
     if (answer === questionsArr[currentIndex].answer) {
@@ -35,6 +38,8 @@ function Exam() {
     }
   }
 
+  const handleGoback = () => {}
+
   useEffect(() => {
     if (questionsArr.length === currentIndex + 1) {
       setTestComleted(true)
@@ -50,14 +55,16 @@ function Exam() {
         </p>
       </div>
       {testComleted && (
-        <div className=' w-full flex flex-col items-center justify-center'>
-          <h3 className='text-lime-950 text-xl'>Test comleted</h3>
+        <div className=' w-full mt-4  flex flex-col items-center justify-center font-medium '>
+          <h3 className='text-lime-950 text-xl capitalize  '>{selectedExamPart} completed</h3>
           <p className='text-lime-950 text-xl'> Total questions: {questionsArr.length - 1} </p>
           <p className='text-lime-950 text-xl'> Correct answers : {corretAnswers.length} </p>
           <p className='pb-4 text-lime-950 text-xl'>Wrongs answers : {wrongAnswers.length} </p>
 
           <button className='bg-lime-50 w-3/5 rounded-md py-2 mb-2 '>Restart test</button>
-          <button className='bg-lime-50 w-3/5 rounded-md py-2 '>Go Back</button>
+          <button onClick={handleGoback} className='bg-lime-50 w-3/5 rounded-md py-2 '>
+            Go back
+          </button>
         </div>
       )}
       {!testComleted && (
