@@ -6,7 +6,7 @@ import StatesPage from './components/StatesPage'
 import Exam from './components/Exam'
 import NotFoundPage from './components/NotFoundPage'
 import { Helmet } from 'react-helmet'
-import { Fragment, useEffect } from 'react'
+import { Fragment } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       <Routes>
         <Route path='/' element={<WelcomePage />} />
         <Route path='/cdl' element={<StatesPage />} />
-        <Route path='/cdl/:usersState' element={<ExamTypePage />} />
+        <Route path='/cdl/:stateName' element={<ExamTypePage />} />
         <Route path='/cdl/:usersState/:examType' element={<ExamParts />} />
         <Route path='/cdl/:usersState/:examType/:examPart' element={<Exam />} />
         <Route element={<NotFoundPage />} />

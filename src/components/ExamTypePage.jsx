@@ -1,33 +1,47 @@
 import React, { useContext } from 'react'
 import { configContext } from '../context/CdlConfig'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
+
+function isValidStateName(stateNameUrl, states) {
+  return Object.values(states).find(name => name.replace(/\s+/g, '-').toLowerCase() === stateNameUrl.toLowerCase()) !== undefined
+}
+function stateNameFromURL(url, states) {
+  return Object.values(states).find(name => name.replace(/\s+/g, '-').toLowerCase() === url.toLowerCase())
+}
 
 function ExamTypePage() {
-  const { selectedState, examTypes, setSelectedExamtype, states, createURLFromString, config, setConfig } = useContext(configContext)
+  const { selectedState, setSelectedState, examTypes, setSelectedExamtype, states, createURLFromString } = useContext(configContext)
   const navigate = useNavigate()
+  const { stateName } = useParams()
+  // Create the validation and conversion functions using the `states` object
+  const isValid = isValidStateName(stateName, states)
+  const originalStateName = stateNameFromURL(stateName, states)
+
   const location = useLocation()
   const currentPath = location.pathname
 
   const onExamTypeChange = examType => {
     setSelectedExamtype(examType)
     navigate(`${currentPath}/${createURLFromString(examType)}`)
+  }
 
-    const newConfig = {
-      ...config,
-      [selectedState]: {
-        ...config[selectedState],
-        [examType]: {}
-      }
+  useEffect(() => {
+    if (!isValid) {
+      // Redirect to a desired URL, for example to the main page
+      navigate('/cdl')
     }
+  }, [stateName, isValid, navigate])
 
-    setConfig(newConfig)
+  if (!isValid) {
+    return null
   }
 
   return (
     <section className='gradient relative   w-screen h-screen flex flex-col justify-between overflow-hidden'>
       <div className='bg-lime-950 py-10'>
-        <p className='text-center font-bold text-xl text-lime-50'>{states[selectedState]} CDL </p>
+        <p className='text-center font-bold text-xl text-lime-50 capitalize'> {originalStateName} CDL </p>
       </div>
       <div className='mt-5 overflow-y-scroll h-full pt-14 '>
         <ul className=' w-screen flex flex-col  items-center px-4'>

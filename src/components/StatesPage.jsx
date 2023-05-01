@@ -8,13 +8,6 @@ function StatesPage() {
   const onStateChange = stateName => {
     setSelectedState(stateName)
     navigate('/cdl/' + createURLFromString(stateName))
-    setConfig(prevConfig => {
-      if (!prevConfig[stateName]) {
-        return { ...config, [stateName]: {} }
-      } else {
-        return prevConfig
-      }
-    })
   }
   console.log('setSelectedState :>> ', selectedState)
   return (
@@ -27,7 +20,7 @@ function StatesPage() {
           {Object.entries(states).map(([key, value]) => {
             const isSelected = selectedState === key
             return (
-              <li className={`fade-up bg-gray-50   text-lime-950 text-lg font-semibold w-full shadow shadow-blue-500/40 hover:shadow-indigo-500/40 py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onStateChange.bind(this, key)} key={key}>
+              <li className={`fade-up bg-gray-50   text-lime-950 text-lg font-semibold w-full shadow shadow-blue-500/40 hover:shadow-indigo-500/40 py-5  rounded-md mb-2 text-center ${isSelected ? 'selected' : 'unselected'}`} onClick={onStateChange.bind(this, value)} key={key}>
                 {value}
               </li>
             )
