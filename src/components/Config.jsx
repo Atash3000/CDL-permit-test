@@ -27,10 +27,15 @@ const Config = () => {
 
     if (showConfig) {
       document.addEventListener('mousedown', handleClickOutside)
+      document.body.classList.add('show-overlay')
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.body.classList.remove('show-overlay')
     }
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
+      document.body.classList.remove('show-overlay')
     }
   }, [showConfig, toggleConfig])
 
@@ -48,6 +53,7 @@ const Config = () => {
           </button>
         </div>
       </div>
+      {showConfig && <div className='config-overlay show' />}
     </>
   )
 }

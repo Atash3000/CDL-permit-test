@@ -58,7 +58,6 @@ function ExamTypePage() {
           })}
         </ul>
       </div>
-
       <Config />
     </section>
   )

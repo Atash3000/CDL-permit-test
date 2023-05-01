@@ -56,11 +56,6 @@ html {
   background-image: linear-gradient(to bottom, #b8c6cb, #95bed1, #71b4da, #48a9e4, #009dee);
 }
 
-/* ExamTypePage.css */
-.config-button {
-  /* Add your button styles here */
-}
-
 .config-container {
   position: fixed;
   bottom: 0;
@@ -80,4 +75,20 @@ html {
 .config-container.show {
   opacity: 1;
   transform: translateY(0%);
+}
+
+.config-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.config-overlay.show {
+  opacity: 1;
 }
