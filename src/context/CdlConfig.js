@@ -1,6 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react'
 import { states } from '../data/states'
 import { data } from '../data/data'
+import { airBrakesData } from '../data/air-brakes'
 export const configContext = createContext()
 
 function CdlConfig(props) {
@@ -9,7 +10,7 @@ function CdlConfig(props) {
   const [config, setConfig] = useState(configObj ?? {})
   const [selectedExamType, setSelectedExamtype] = useState('')
   const [selectedExamPart, setSelectedExamPart] = useState('')
-  const examTypes = { 'General Knowledge': data, Trailer: data, 'Air Brake': data }
+  const examTypes = { 'General Knowledge': data, Trailer: data, 'Air Brake': airBrakesData }
   const createURLFromString = str => {
     // Replace any spaces with dashes and convert the string to lowercase
     const url = str.replace(/\s+/g, '-').toLowerCase()
@@ -34,6 +35,8 @@ function CdlConfig(props) {
   let partCount = 0
   if (selectedExamType === 'General Knowledge') {
     partCount = 3
+  } else if (selectedExamType === 'Air Brake') {
+    partCount = 4
   } else {
     partCount = 2
   }
@@ -61,7 +64,8 @@ function CdlConfig(props) {
     examParts,
     questionsArr,
     config,
-    setConfig
+    setConfig,
+    airBrakesData
   }
   return <configContext.Provider value={values}>{props.children}</configContext.Provider>
 }

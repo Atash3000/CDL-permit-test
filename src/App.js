@@ -30,7 +30,7 @@ function App() {
         <Route path='/cdl/:stateName' element={<ExamTypePage />} />
         <Route path='/cdl/:usersState/:examType' element={<ExamParts />} />
         <Route path='/cdl/:usersState/:examType/:examPart' element={<Exam />} />
-        <Route element={<NotFoundPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
       <Analytics />
     </Fragment>
