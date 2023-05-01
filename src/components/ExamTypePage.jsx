@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react'
+import React, { useContext } from 'react'
 import { configContext } from '../context/CdlConfig'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
@@ -15,7 +15,6 @@ function stateNameFromURL(url, states) {
 
 function ExamTypePage() {
   const { examTypes, setSelectedExamtype, states } = useContext(configContext)
-  const [showConfig, setShowConfig] = useState(false)
   const navigate = useNavigate()
   const { stateName } = useParams()
   // Create the validation and conversion functions using the `states` object

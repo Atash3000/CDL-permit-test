@@ -1,11 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { configContext } from '../context/CdlConfig'
-import { useLocation, useNavigate } from 'react-router-dom'
 
 function Exam() {
-  const location = useLocation()
-  const navigate = useNavigate()
-  const currentPath = location.pathname
   const { questionsArr, selectedExamType, selectedExamPart } = useContext(configContext)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [btnDisabled, setBtnDisable] = useState(true)
@@ -44,7 +40,7 @@ function Exam() {
     if (questionsArr.length === currentIndex + 1) {
       setTestComleted(true)
     }
-  }, [currentIndex])
+  }, [currentIndex, questionsArr.length])
 
   return (
     <section className='relative gradient-2 bg-gray-50  w-screen h-screen flex flex-col justify-start  overflow-hidden'>

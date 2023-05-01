@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { createURLFromString } from '../helpers/createURLFromString'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function WelcomePage() {
-  const navigate = useNavigate()
-
   // useEffect(() => {
   //   // check if user has been before on website
   //   const lastSelectedState = localStorage.getItem('lastSelectedState')

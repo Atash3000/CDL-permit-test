@@ -3,7 +3,7 @@ import { configContext } from '../context/CdlConfig'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 function ExamParts() {
-  const { selectedExamType, examTypes, createExamParts, setSelectedExamPart, examParts } = useContext(configContext)
+  const { selectedExamType, setSelectedExamPart, examParts } = useContext(configContext)
   const location = useLocation()
   const navigate = useNavigate()
   const currentPath = location.pathname

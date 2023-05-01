@@ -5,7 +5,7 @@ export const configContext = createContext()
 
 function CdlConfig(props) {
   const configObj = JSON.parse(localStorage.getItem('config'))
-  const [selectedState, setSelectedState] = useState('')
+  const [selectedState, setSelectedState] = useState(localStorage.getItem('lastSelectedState'))
   const [config, setConfig] = useState(configObj ?? {})
   const [selectedExamType, setSelectedExamtype] = useState('')
   const [selectedExamPart, setSelectedExamPart] = useState('')

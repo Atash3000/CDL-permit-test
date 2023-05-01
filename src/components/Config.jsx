@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { FiMenu, FiSettings } from 'react-icons/fi'
 import { AiOutlineHome } from 'react-icons/ai'
+import { useCallback } from 'react'
 
 const Config = () => {
   const [showConfig, setShowConfig] = useState(false)
@@ -9,9 +10,9 @@ const Config = () => {
   const toggleButtonRef = useRef(null)
   const navigate = useNavigate()
 
-  const toggleConfig = () => {
+  const toggleConfig = useCallback(() => {
     setShowConfig(!showConfig)
-  }
+  }, [showConfig])
 
   useEffect(() => {
     const handleClickOutside = event => {
