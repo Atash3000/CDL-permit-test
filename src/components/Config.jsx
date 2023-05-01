@@ -41,8 +41,8 @@ const Config = () => {
       </button>
 
       <div className={`config-container overflow-hidden ${showConfig ? 'show' : ''}`} ref={containerRef}>
-        <div className='text-white  w-full h-full flex flex-col items-start py-2 px-2  '>
-          <button onClick={() => navigate('/cdl')} className='flex w-full flex-row items-center border-b-[0.5px] border-gray-400 pb-2  '>
+        <div className='text-white  w-full h-full flex flex-col items-start pt-4 pl-4  '>
+          <button onClick={() => navigate('/cdl')} className='flex w-full flex-row items-center border-b-[0.5px] border-gray-700 pb-2  '>
             <FiSettings className='text-white' color='#fff' size='20' />
             <span className='ml-3'> Change State</span>
           </button>
