@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { FiMenu } from 'react-icons/fi'
-import { FiSettings } from 'react-icons/fi'
+import { FiMenu, FiSettings } from 'react-icons/fi'
+import { AiOutlineHome } from 'react-icons/ai'
 
 const Config = () => {
   const [showConfig, setShowConfig] = useState(false)
@@ -50,6 +50,10 @@ const Config = () => {
           <button onClick={() => navigate('/cdl')} className='flex w-full flex-row items-center border-b-[0.5px] border-gray-700 pb-2  '>
             <FiSettings className='text-white' color='#fff' size='20' />
             <span className='ml-3'> Change State</span>
+          </button>
+          <button onClick={() => navigate('/', { replace: true })} className='flex w-full flex-row items-center border-b-[0.5px] border-gray-700 pb-2 mt-2  '>
+            <AiOutlineHome className='text-white' color='#fff' size='20' />
+            <span className='ml-3'> Home page</span>
           </button>
         </div>
       </div>

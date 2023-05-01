@@ -5,14 +5,15 @@ import { createURLFromString } from '../helpers/createURLFromString'
 function WelcomePage() {
   const navigate = useNavigate()
 
-  useEffect(() => {
-    // check if user has been before on website
-    const lastSelectedState = localStorage.getItem('lastSelectedState')
+  // useEffect(() => {
+  //   // check if user has been before on website
+  //   const lastSelectedState = localStorage.getItem('lastSelectedState')
 
-    if (lastSelectedState) {
-      navigate('/cdl/' + createURLFromString(lastSelectedState))
-    }
-  }, [navigate])
+  //   if (lastSelectedState) {
+  //     navigate('/cdl/' + createURLFromString(lastSelectedState))
+  //   }
+  // }, [navigate])
+
   return (
     <section className='h-screen flex flex-col relative '>
       <header className='relative min-h-[70vh] text-gray-50'>
