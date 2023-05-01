@@ -98,7 +98,7 @@ function Exam() {
           </div>
           {selectedAnswer && !isAnswerCorrect && (
             <div className='explanation px-4  '>
-              <p className='text-gray-900 text-left'>{explanation}</p>
+              <p className='text-gray-900 text-left italic '>{explanation}</p>
             </div>
           )}
           <div className='flex flex-row items-center justify-end px-8 mt-4 '>

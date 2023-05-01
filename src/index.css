@@ -50,8 +50,8 @@ html {
 }
 
 .gradient {
-  background-image: linear-gradient(to bottom, #dae0e8, #9cedff, #3cfbec, #6bff9a, #d5f30b);
+  background-image: linear-gradient(to bottom, #b8c6cb, #95bed1, #71b4da, #48a9e4, #009dee);
 }
 .gradient-2 {
-  background-image: linear-gradient(to bottom, #dae0e8, #9cedff, #3cfbec, #6bff9a, #d5f30b);
+  background-image: linear-gradient(to top, #b8c6cb, #95bed1, #71b4da, #48a9e4, #009dee);
 }
