@@ -45,7 +45,7 @@ export const generalKnowledge = [
       d: 'A limousine'
     },
     answer: 'b',
-    explanation: 'A vehicle designed to transport 15'
+    explanation: 'A commercial bus  designed to transport 15 or more passengers'
   },
   {
     id: 5,
@@ -85,13 +85,15 @@ export const generalKnowledge = [
   },
   {
     id: 8,
-    title: 'Are fire and police vehicles engaged in emergency operations in New York State exempt from the CDL requirement?',
+    title: 'What is the purpose of a commercial vehicle inspection?',
     options: {
-      a: 'Yes',
-      b: 'No'
+      a: 'To ensure that the vehicle is in compliance with federal regulations',
+      b: 'To make sure that the vehicle looks good',
+      c: 'To identify areas where the vehicle can be improved',
+      d: 'To check the vehicle for leaks'
     },
     answer: 'a',
-    explanation: 'Fire and police vehicles engaged in emergency operations in New York State are exempt from the CDL requirement.'
+    explanation: 'The purpose of a commercial vehicle inspection is to ensure that the vehicle is in compliance with federal regulations. Inspections are required by law and cover a variety of components, such as brakes, lights, tires, and other safety features.'
   },
 
   {
@@ -371,7 +373,7 @@ export const generalKnowledge = [
       d: 'To ensure safety for yourself and other road users'
     },
     answer: 'd',
-    explanation: 'The text clearly states that safety is the most important reason for inspecting a vehicle.'
+    explanation: 'Safety is the most important reason for inspecting a vehicle.'
   },
 
   {
@@ -384,7 +386,7 @@ export const generalKnowledge = [
       d: 'They may be required to take a driving test'
     },
     answer: 'b',
-    explanation: 'The text states that a vehicle defect found during an inspection could save you problems later, including a breakdown on the road.'
+    explanation: 'Vehicle defect found during an inspection could save you problems later, including a breakdown on the road.'
   },
 
   {
@@ -397,7 +399,7 @@ export const generalKnowledge = [
       d: 'An inspection that must be done while driving to monitor vehicle performance'
     },
     answer: 'c',
-    explanation: 'The text defines a pre-trip inspection as one that is done before a trip to find problems that could cause a crash or breakdown.'
+    explanation: 'Pre-trip inspection as one that is done before a trip to find problems that could cause a crash or breakdown.'
   },
 
   {
@@ -410,7 +412,7 @@ export const generalKnowledge = [
       d: 'By playing loud music'
     },
     answer: 'c',
-    explanation: 'The text states that during a trip, you should watch gauges for signs of trouble, among other things.'
+    explanation: 'During a trip, you should watch gauges for signs of trouble, among other things.'
   },
 
   {
@@ -423,7 +425,7 @@ export const generalKnowledge = [
       d: 'Air fresheners'
     },
     answer: 'a',
-    explanation: 'The text lists tires, wheels, and rims as critical items to check during a stop, along with brakes, lights and reflectors, and other items.'
+    explanation: 'Tires, wheels, and rims as critical items to check during a stop, along with brakes, lights and reflectors, and other items.'
   },
 
   {
@@ -436,7 +438,7 @@ export const generalKnowledge = [
       d: 'An inspection that must be done while driving to monitor vehicle performance'
     },
     answer: 'b',
-    explanation: 'The text defines an after-trip inspection as one that should be done at the end of the trip, day, or tour of duty on each vehicle you operated.'
+    explanation: 'After-trip inspection as one that should be done at the end of the trip, day, or tour of duty on each vehicle you operated.'
   },
 
   {
@@ -449,7 +451,7 @@ export const generalKnowledge = [
       d: 'Only if you suspect a problem'
     },
     answer: 'c',
-    explanation: 'The text states that an after-trip inspection should be done at the end of the trip, day, or tour of duty on each vehicle you operated.'
+    explanation: 'After-trip inspection should be done at the end of the trip, day, or tour of duty on each vehicle you operated.'
   },
 
   {
@@ -462,7 +464,7 @@ export const generalKnowledge = [
       d: 'Wait until the next inspection to report the problems'
     },
     answer: 'b',
-    explanation: 'The text states that the inspection report helps a motor carrier know when the vehicle needs repairs, so if you find problems during an after-trip inspection, you should report them to the motor carrier.'
+    explanation: 'Inspection report helps a motor carrier know when the vehicle needs repairs, so if you find problems during an after-trip inspection, you should report them to the motor carrier.'
   },
 
   {
@@ -475,7 +477,7 @@ export const generalKnowledge = [
       d: '8/32 inch'
     },
     answer: 'b',
-    explanation: 'The text states that you need at least 4/32-inch tread depth in every major groove on front tires.'
+    explanation: 'You need at least 4/32-inch tread depth in every major groove on front tires.'
   },
 
   {
@@ -488,7 +490,7 @@ export const generalKnowledge = [
       d: ' All of the above'
     },
     answer: 'd',
-    explanation: 'The text lists several potential tire problems to look for during an inspection, including too much or too little air pressure, bad wear, cuts or other damage, and more.'
+    explanation: 'Several potential tire problems to look for during an inspection, including too much or too little air pressure, bad wear, cuts or other damage, and more.'
   },
   {
     id: 40,
@@ -500,7 +502,7 @@ export const generalKnowledge = [
       d: '  All of the above'
     },
     answer: 'd',
-    explanation: 'The text lists several potential wheel and rim problems to look for during an inspection, including damaged rims, rust around wheel nuts, missing clamps, spacers, studs, or lugs, and more.'
+    explanation: 'Several potential wheel and rim problems to look for during an inspection, including damaged rims, rust around wheel nuts, missing clamps, spacers, studs, or lugs, and more.'
   },
   {
     id: 41,
@@ -538,7 +540,7 @@ export const generalKnowledge = [
       d: ' 20 degrees'
     },
     answer: 'b',
-    explanation: 'The text states that steering wheel play of more than 10 degrees (approximately 2 inches movement at the rim of a 20-inch steering wheel) can make it hard to steer.'
+    explanation: 'Steering wheel play of more than 10 degrees (approximately 2 inches movement at the rim of a 20-inch steering wheel) can make it hard to steer.'
   },
 
   {
@@ -564,7 +566,7 @@ export const generalKnowledge = [
       d: 'Wait until the next inspection to report the defect'
     },
     answer: 'b',
-    explanation: 'The text states that if any of the following conditions exist, the vehicle will be placed "out of service" and must be repaired, so it\'s important to report any defects found during an inspection to your supervisor or mechanic.'
+    explanation: 'If any of the following conditions exist, the vehicle will be placed "out of service" and must be repaired, so it\'s important to report any defects found during an inspection to your supervisor or mechanic.'
   },
 
   {
@@ -577,7 +579,7 @@ export const generalKnowledge = [
       d: '1/2 inch'
     },
     answer: 'b',
-    explanation: 'The text states that you need at least 1/8 inch tread depth on front tires.'
+    explanation: 'You need at least 1/8 inch tread depth on front tires.'
   },
 
   {
@@ -603,7 +605,7 @@ export const generalKnowledge = [
       d: 'All of the above'
     },
     answer: 'd',
-    explanation: 'The text lists several potential problems with dual tires, including tires that come in contact with each other or parts of the vehicle, mismatched sizes, and radial and bias-ply tires used together.'
+    explanation: 'Several potential problems with dual tires, including tires that come in contact with each other or parts of the vehicle, mismatched sizes, and radial and bias-ply tires used together.'
   },
 
   {
@@ -616,7 +618,7 @@ export const generalKnowledge = [
       d: '4 inches'
     },
     answer: 'a',
-    explanation: 'The text states that there should be no more than 1 inch of space between dual tires.'
+    explanation: 'There should be no more than 1 inch of space between dual tires.'
   },
 
   {
@@ -629,7 +631,7 @@ export const generalKnowledge = [
       d: 'All of the above'
     },
     answer: 'd',
-    explanation: 'The text lists several potential problems with wheel and rim problems to look for during an inspection, including damaged rims, rust around wheel nuts, missing clamps, spacers, studs, or lugs, and more.'
+    explanation: 'Several potential problems with wheel and rim problems to look for during an inspection, including damaged rims, rust around wheel nuts, missing clamps, spacers, studs, or lugs, and more.'
   },
 
   {
@@ -666,7 +668,7 @@ export const generalKnowledge = [
       d: 'Wait until the next inspection to report the defect'
     },
     answer: 'b',
-    explanation: 'The text states that if any of the following conditions exist, the vehicle will be placed "out of service" and must be repaired, so it\'s important to report any defects found during an inspection to your supervisor or mechanic.'
+    explanation: 'If any of the following conditions exist, the vehicle will be placed "out of service" and must be repaired, so it\'s important to report any defects found during an inspection to your supervisor or mechanic.'
   },
   {
     id: 1,
@@ -702,7 +704,7 @@ export const generalKnowledge = [
       d: 'Only inspect parts of the vehicle that you think are important'
     },
     answer: 'c',
-    explanation: 'The text recommends doing a pre-trip inspection the same way each time so that you learn all the steps and are less likely to forget something.'
+    explanation: 'Doing a pre-trip inspection the same way each time so that you learn all the steps and are less likely to forget something.'
   },
   {
     id: 54,
@@ -858,7 +860,7 @@ export const generalKnowledge = [
       d: 'To make sure the vehicle is always in the same spot during the inspection'
     },
     answer: 'b',
-    explanation: 'The text states that doing a pre-trip inspection the same way each time is important so that you learn all the steps and are less likely to forget something.'
+    explanation: 'Doing a pre-trip inspection the same way each time is important so that you learn all the steps and are less likely to forget something.'
   },
   {
     id: 17,
@@ -870,7 +872,7 @@ export const generalKnowledge = [
       d: 'All of the above'
     },
     answer: 'd',
-    explanation: 'The text states that you should check the area around the vehicle for hazards to vehicle movement such as people, other vehicles, objects, low-hanging wires, limbs, and more.'
+    explanation: 'You should check the area around the vehicle for hazards to vehicle movement such as people, other vehicles, objects, low-hanging wires, limbs, and more.'
   },
   {
     id: 18,
@@ -1468,7 +1470,7 @@ export const generalKnowledge = [
       d: 'All of the above'
     },
     answer: 'b',
-    explanation: 'The text advises partly engaging the clutch before taking your foot off the brake as a way to avoid rolling back when starting a manual transmission vehicle.'
+    explanation: 'Partly engaging the clutch before taking your foot off the brake as a way to avoid rolling back when starting a manual transmission vehicle.'
   },
 
   {
@@ -1481,7 +1483,7 @@ export const generalKnowledge = [
       d: 'All of the above'
     },
     answer: 'd',
-    explanation: 'The text explains that rough acceleration can cause mechanical damage to a vehicle, and suggests speeding up smoothly and gradually as well as accelerating very gradually when pulling a trailer to prevent rough acceleration.'
+    explanation: 'Rough acceleration can cause mechanical damage to a vehicle, and suggests speeding up smoothly and gradually as well as accelerating very gradually when pulling a trailer to prevent rough acceleration.'
   },
 
   {
@@ -1622,7 +1624,7 @@ export const generalKnowledge = [
       d: 'It does not matter which direction you turn when backing and turning'
     },
     answer: 'b',
-    explanation: "When backing and turning, the text advises turning toward the driver's side whenever possible to reduce the risk of hitting obstacles or other vehicles and keep the vehicle closer to the curb"
+    explanation: "When backing and turning toward the driver's side whenever possible to reduce the risk of hitting obstacles or other vehicles and keep the vehicle closer to the curb"
   },
 
   {
