@@ -1664,5 +1664,993 @@ export const generalKnowledge = [
     },
     answer: 'c',
     explanation: 'If you have difficulty putting the vehicle into the next gear after shifting into neutral, return to neutral, release the clutch, increase engine speed to match road speed, and try again.'
+  },
+  {
+    id: 201,
+    title: '    Why is it important to secure cargo on flatbed trailers or trailers without sides?',
+    options: {
+      a: ' To prevent cargo from getting wet',
+      b: 'To prevent cargo from getting dirty',
+      c: 'To keep the cargo from shifting or falling off',
+      d: 'To make the vehicle look neat'
+    },
+    answer: 'c',
+    explanation: 'ecuring cargo on flatbed trailers is crucial to prevent shifting or falling off. Properly tiedowns and equipment ensure safe transport and prevent accidents or injuries on the road.'
+  },
+  {
+    id: 202,
+    title: 'Why is it important to secure cargo on flatbed trailers or trailers without sides?',
+    options: {
+      a: 'To prevent cargo from getting wet',
+      b: 'To prevent cargo from getting dirty',
+      c: 'To keep the cargo from shifting or falling off',
+      d: 'To make the vehicle look neat'
+    },
+    answer: 'c',
+    explanation: 'Securing cargo on flatbed trailers is crucial to prevent shifting or falling off. Properly tiedowns and equipment ensure safe transport and prevent accidents or injuries on the road.'
+  },
+  {
+    id: 203,
+    title: 'Are there special requirements for securing heavy pieces of metal?',
+    options: {
+      a: 'No, there are no special requirements',
+      b: 'Yes, but they are not important',
+      c: 'Yes, and it is important to find out what they are',
+      d: 'Yes, but only if the metal is sharp'
+    },
+    answer: 'c',
+    explanation: 'Special requirements exist for securing heavy pieces of metal, and it is crucial to find out what they are before transporting such loads to ensure proper safety and security.'
+  },
+
+  {
+    id: 204,
+    title: 'What are the two basic reasons for covering cargo?',
+    options: {
+      a: 'To protect people from spilled drinks',
+      b: 'To protect the cargo from getting wet',
+      c: 'To protect people from spilled cargo and protect the cargo from weather',
+      d: 'To keep the cargo from getting dirty'
+    },
+    answer: 'c',
+    explanation: 'Explanation: Covering cargo is important to protect both people and the cargo itself. It helps prevent spillage, which is a safety requirement in many states, and also protects the cargo from weather.'
+  },
+
+  {
+    id: 205,
+    title: 'Why is it important to check your cargo covers in the mirrors from time to time while driving?',
+    options: {
+      a: 'To check if the cargo is still there',
+      b: 'To see if the covers are flapping in the wind',
+      c: 'To make sure the covers look good',
+      d: 'To see if the cargo is getting wet'
+    },
+    answer: 'b',
+    explanation: "Explanation: Checking cargo covers in the mirrors is crucial to ensure they are not flapping in the wind. This can cause them to tear loose and uncover the cargo, obstructing the driver's or other motorists' view, posing a safety hazard."
+  },
+  {
+    id: 206,
+    title: 'Why do containerized loads need to be properly secured?',
+    options: {
+      a: 'To prevent them from getting wet',
+      b: 'To prevent damage to the container',
+      c: 'To ensure safety during transportation',
+      d: 'To keep the cargo from getting dirty'
+    },
+    answer: 'c',
+    explanation: 'Containerized loads must be secured properly to ensure safety during transportation, even if they have their own tiedown devices. Inspecting sealed loads may not be possible, but exceeding weight limits should be avoided.'
+  },
+  {
+    id: 207,
+    title: 'Why do dry bulk tanks require special care while driving?',
+    options: {
+      a: 'Because they have a low center of gravity',
+      b: 'Because the load can shift easily',
+      c: 'Because they are more stable than other tanks',
+      d: 'Because they are less prone to rollover accidents'
+    },
+    answer: 'b',
+    explanation: 'Dry bulk tanks require special care while driving because the load can shift easily due to their high center of gravity. It is important to be extremely cautious while going around curves and making sharp turns to prevent accidents and ensure safe transportation.'
+  },
+  {
+    id: 208,
+    title: 'Why is particular caution needed while transporting hanging meat in a refrigerated truck?',
+    options: {
+      a: 'Because it can spoil easily',
+      b: 'Because it can get too cold',
+      c: 'Because it can become too heavy',
+      d: 'Because it can be a very unstable load with a high center of gravity'
+    },
+    answer: 'd',
+    explanation: 'Hanging meat in a refrigerated truck is unstable with a high center of gravity. Extra care is needed on sharp curves. Going slowly prevents accidents and ensures safe transportation.'
+  },
+  {
+    id: 209,
+    title: 'Why is special care necessary while transporting livestock in a trailer?',
+    options: {
+      a: 'Because they can be noisy and disruptive',
+      b: 'Because they can easily escape',
+      c: 'Because they can lean on curves and shift the center of gravity',
+      d: 'Because they require a lot of space'
+    },
+    answer: 'c',
+    explanation: 'Special care is necessary while transporting livestock in a trailer as they can move, lean on curves, and shift the center of gravity, increasing the risk of rollover accidents. False bulkheads can help, but extra caution is required..'
+  },
+  {
+    id: 210,
+    title: 'What is required for over-length, over-width, and/or overweight loads?',
+    options: {
+      a: "A regular driver's license",
+      b: 'Special transit permits',
+      c: 'No permits are required',
+      d: 'A CDL is required'
+    },
+    answer: 'b',
+    explanation: 'Over-length, over-width, and/or overweight loads require special transit permits, limited driving times, and special equipment. A police escort or pilot vehicle may be required. Special care is necessary for safe transportation.'
+  },
+  {
+    id: 211,
+    title: 'What is the purpose of the bridge formula?',
+    options: {
+      a: 'To set maximum GVWs and GCWs',
+      b: 'To permit less maximum axle weight for axles that are closer together',
+      c: 'To prevent overloading of cargo',
+      d: 'To ensure safe transportation of goods'
+    },
+    answer: 'b',
+    explanation: 'Bridge formula limits axle weight for safety. States enforce maximum GVWs, GCWs, and axle weights to avoid overloading. Overloading affects steering, braking, and speed control, and may cause brake failure. Legal maximum weights may not be safe in bad weather or in mountains.'
+  },
+
+  {
+    id: 212,
+    title: 'What are the bad effects of overloading on trucks?',
+    options: {
+      a: 'Better steering, braking, and speed control',
+      b: 'Faster speed on upgrades',
+      c: 'Longer stopping distance and brake failure',
+      d: 'Quicker acceleration'
+    },
+    answer: 'c',
+    explanation: 'Overloading harms steering, braking, and speed control. It slows trucks on upgrades, and speeds them up on downgrades, increasing stopping distance and brake failure. Operating at legal maximum weights may not be safe in bad weather or in mountains."'
+  },
+  {
+    id: 213,
+    title: 'Why is it important to check the cargo and its securing devices after starting a trip?',
+    options: {
+      a: 'To see if any items have fallen off during transport',
+      b: 'To make sure the truck is not overloaded',
+      c: 'To ensure that the cargo is balanced and secured properly',
+      d: 'To check if the cargo is getting wet'
+    },
+    answer: 'c',
+    explanation: 'It is important to inspect the cargo and its securing devices again within the first 50 miles after starting a trip to ensure that the cargo is balanced and secured properly, and to make any adjustments needed to keep the load secure.'
+  },
+
+  {
+    id: 214,
+    title: 'When should you re-check the cargo and its securing devices during a trip?',
+    options: {
+      a: 'After every 100 miles',
+      b: 'After every 200 miles',
+      c: 'After driving for 3 hours or 150 miles, and after every break taken during driving',
+      d: 'Only at the beginning of the trip'
+    },
+    answer: 'c',
+    explanation: 'It is important to re-check the cargo and securing devices as often as necessary during a trip to keep the load secure. A good habit is to inspect again after driving for 3 hours or 150 miles, and after every break taken during driving.'
+  },
+
+  {
+    id: 215,
+    title: 'When should you inspect the cargo and securing devices again after starting a trip?',
+    options: {
+      a: 'After driving for 3 hours or 150 miles',
+      b: 'Only when you take a break during driving',
+      c: 'Once per day',
+      d: 'Within the first 50 miles'
+    },
+    answer: 'd',
+    explanation: 'It is important to re-check the cargo and securing devices within the first 50 miles after starting a trip to ensure that the load is still secure and properly balanced.'
+  },
+
+  {
+    id: 216,
+    title: 'What is the most effective way to overcome fatigue while driving?',
+    options: {
+      a: 'Drinking coffee or energy drinks',
+      b: 'Taking a short nap',
+      c: 'Using drugs',
+      d: 'Pushing on and ignoring the signs of sleepiness'
+    },
+    answer: 'b',
+    explanation: 'Taking a short nap is the most effective way to overcome fatigue while driving. It is important to stop and rest whenever you feel the first signs of sleepiness, even if it is earlier than planned.'
+  },
+
+  {
+    id: 217,
+    title: 'Are there any drugs that can overcome fatigue while driving?',
+    options: {
+      a: 'Yes, there are some drugs that can help',
+      b: 'No, there are no drugs that can help',
+      c: 'It depends on the type of drug',
+      d: "Drugs can keep you awake for a while, but they won't make you alert"
+    },
+    answer: 'd',
+    explanation: "While drugs can keep you awake for a while, they won't make you alert or overcome fatigue. It is important to stop and rest whenever you feel the first signs of sleepiness."
+  },
+
+  {
+    id: 218,
+    title: 'What are some ways to stay alert while driving?',
+    options: {
+      a: 'Keep the window or vent closed and take long breaks.',
+      b: 'Plan to sleep between 6 a.m. and noon.',
+      c: 'Ignore danger signals and push on.',
+      d: 'Take short breaks, walk around, inspect the vehicle, and do physical exercises.'
+    },
+    answer: 'd',
+    explanation: 'To stay alert while driving, take short breaks, walk around, inspect your vehicle, and do physical exercises. It is important to take these breaks before feeling really drowsy or tired.'
+  },
+  {
+    id: 219,
+    title: 'What are some danger signals of drowsy driving?',
+    options: {
+      a: 'Experiencing hunger and thirst.',
+      b: 'Feeling hot and uncomfortable.',
+      c: 'Having wandering, disconnected thoughts.',
+      d: 'Being distracted by music or podcasts.'
+    },
+    answer: 'c',
+    explanation: 'Some danger signals of drowsy driving include having wandering, disconnected thoughts, drifting between lanes, tailgating, missing traffic signs, and jerking the truck back into the lane.'
+  },
+  {
+    id: 220,
+    title: 'What should you do if you experience danger signals of drowsy driving?',
+    options: {
+      a: 'Ignore them and continue driving.',
+      b: 'Drink coffee or take energy drinks to stay awake.',
+      c: 'Pull off the road in a safe place and take a nap.',
+      d: 'Turn up the radio and sing along to stay alert.'
+    },
+    answer: 'c',
+    explanation: 'If you experience danger signals of drowsy driving, such as wandering thoughts or difficulty keeping your head up, pull off the road in a safe place and take a nap.'
+  },
+  {
+    id: 221,
+    title: 'What is the recommended time to take a mid-afternoon break?',
+    options: {
+      a: 'Between midnight and 6 a.m.',
+      b: 'Between 6 a.m. and noon.',
+      c: 'Between noon and 3 p.m.',
+      d: 'Between 3 p.m. and 5 p.m.'
+    },
+    answer: 'c',
+    explanation: 'To stay alert while driving, take a mid-afternoon break and plan to sleep between midnight and 6 a.m. The recommended time for a mid-afternoon break is between noon and 3 p.m.'
+  },
+
+  {
+    id: 222,
+    title: "Why is it dangerous to leave on a long trip when you're already tired?",
+    options: {
+      a: 'You will end up in a sleep debt that cannot be overcome with willpower.',
+      b: "You won't be able to schedule trips for the hours you are normally awake.",
+      c: "You won't be able to incorporate exercise into your daily life.",
+      d: 'You will be less alert during the trip, increasing the risk of crashes.'
+    },
+    answer: 'd',
+    explanation: "Explanation: Leaving on a long trip when you're already tired is dangerous because you will be less alert during the trip, increasing the risk of crashes. It's important to get enough sleep before starting a long trip to ensure driving safely."
+  },
+  {
+    id: 223,
+    title: 'What is the myth about alcohol and driving?',
+    options: {
+      a: 'Alcohol increases your ability to drive.',
+      b: 'Some people can drink a lot and not be affected.',
+      c: 'Coffee and a little fresh air will help a drinker sober up.',
+      d: 'Stick with beer – It’s not as strong as wine or whiskey.'
+    },
+    answer: 'd',
+    explanation:
+      "Explanation: The myth about alcohol and driving is that sticking with beer is safer than wine or whiskey because it's not as strong. However, a few beers are the same as a few shots of whiskey or a few glasses of wine, and all types of alcohol will impair your ability to drive safely."
+  },
+  {
+    id: 224,
+    title: 'What are the danger signals of drowsy driving?',
+    options: {
+      a: 'Your eyes close or go out of focus by themselves.',
+      b: 'You have trouble keeping your head up.',
+      c: 'You can’t stop yawning.',
+      d: 'All of the above.'
+    },
+    answer: 'd',
+    explanation:
+      'Explanation: The danger signals of drowsy driving include your eyes closing or going out of focus by themselves, trouble keeping your head up, inability to stop yawning, having wandering, disconnected thoughts, not remembering driving the last few miles, drifting between lanes, tailgating, missing traffic signs, jerking the truck back into the lane, and drifting off the road and narrowly missing crashing.'
+  },
+  {
+    id: 225,
+    title: 'What should you do to avoid the effects of medication that can make you sleepy?',
+    options: {
+      a: 'Consult your physician or a local sleep disorder center.',
+      b: 'Eliminate fattening snacks and try fruit or vegetables instead.',
+      c: 'Pick low-fat items at fast-food restaurants.',
+      d: 'Avoid driving if you have to take medication that can make you sleepy.'
+    },
+    answer: 'd',
+    explanation: 'Explanation: Many medicines can make you sleepy and have a label warning against operating vehicles or machinery. The best way to avoid the effects of medication that can make you sleepy is to avoid driving if you have to take such medication.'
+  },
+  {
+    id: 226,
+    title: 'What is the rule for using drugs while driving?',
+    options: {
+      a: "Don't use any drug that hides fatigue and avoid illegal drugs",
+      b: 'Only use drugs given by a doctor',
+      c: 'Use any legal drug as long as it is not a controlled substance'
+    },
+    answer: 'a',
+    explanation: "Explanation: The safest rule is not to mix drugs with driving at all. Don't use any drug that hides fatigue, and stay away from illegal drugs."
+  },
+
+  {
+    id: 227,
+    title: 'What should you pay attention to regarding legitimate drugs and medicines?',
+    options: {
+      a: 'The color of the pills',
+      b: "The warning labels and doctor's orders regarding possible effects",
+      c: 'The price of the medication'
+    },
+    answer: 'b',
+    explanation: "Explanation: Pay attention to warning labels for legitimate drugs and medicines and to doctor's orders regarding possible effects. This will help prevent the use of drugs that can make you drowsy or otherwise affect your driving ability."
+  },
+
+  {
+    id: 228,
+    title: 'What are the potential consequences of using drugs while driving?',
+    options: {
+      a: 'Property damage only',
+      b: 'Injury and property damage',
+      c: 'Death, injury, and property damage'
+    },
+    answer: 'c',
+    explanation: "Explanation: Use of drugs can lead to traffic crashes resulting in death, injury, and property damage. It can also lead to arrest, fines, and jail sentences, and may mean the end of a person's driving career."
+  },
+
+  {
+    id: 229,
+    title: 'What is the safest rule when it comes to mixing drugs and driving?',
+    options: {
+      a: "It's okay to mix drugs with driving as long as they were prescribed by a doctor",
+      b: "Don't mix drugs with driving at all",
+      c: 'Mixing drugs with driving is only safe if they are over-the-counter medications'
+    },
+    answer: 'b',
+    explanation: "Explanation: The safest rule is don't mix drugs with driving at all. Use of drugs can lead to traffic crashes resulting in death, injury, and property damage, and it can also lead to arrest, fines, and jail sentences. It can mean the end of a person's driving career."
+  },
+  {
+    id: 230,
+    title: 'What are the potential effects of alcohol on driving?',
+    options: {
+      a: 'Improved muscle control, vision, and coordination',
+      b: 'Improved judgment and self-control',
+      c: 'Straddling lanes, quick, jerky starts, running stop signs and red lights, and improper passing'
+    },
+    answer: 'c',
+    explanation: ' Alcohol impairs muscle control, vision, and coordination as BAC increases, causing unsafe driving behaviors like lane straddling, quick starts, and failure to obey traffic signs. Good judgment and self-control are crucial for safe driving, but alcohol can impair them.'
+  },
+
+  {
+    id: 231,
+    title: 'What factors determine Blood Alcohol Concentration (BAC)?',
+    options: {
+      a: 'The type of alcohol you drink',
+      b: 'The speed of your drinking and your weight',
+      c: 'The temperature of the alcohol',
+      d: 'The color of the alcohol'
+    },
+    answer: 'b',
+    explanation: "Explanation: BAC is determined by the amount of alcohol you drink (more alcohol means higher BAC), how fast you drink (faster drinking means higher BAC), and your weight (a small person doesn't have to drink as much to reach the same BAC)."
+  },
+  {
+    id: 232,
+    title: 'What is the maximum amount of alcohol the liver can process per hour?',
+    options: {
+      a: '1 ounce',
+      b: '2 ounces',
+      c: '3 ounces',
+      d: '1/3 an ounce'
+    },
+    answer: 'd',
+    explanation: 'Explanation: The liver can only process one-third an ounce of alcohol per hour, which is considerably less than the alcohol in a standard drink. This is a fixed rate, so only time, not black coffee or a cold shower, will sober you up.'
+  },
+  {
+    id: 233,
+    title: 'How does alcohol affect driving abilities?',
+    options: {
+      a: 'Improves muscle coordination and reaction time',
+      b: 'Impairs muscle coordination, reaction time, and judgment',
+      c: 'Has no effect on driving abilities'
+    },
+    answer: 'b',
+    explanation: 'Explanation: Alcohol impairs muscle coordination, reaction time, depth perception, night vision, and judgment and inhibition. This can result in dangerous driving behaviors and is a leading cause of traffic crashes resulting in deaths.'
+  },
+  {
+    id: 234,
+    title: 'What is a drink and how does it affect human performance?',
+    options: {
+      a: 'A beverage that improves human performance',
+      b: 'A beverage that contains alcohol, which impairs human performance',
+      c: 'A beverage that has no effect on human performance'
+    },
+    answer: 'b',
+    explanation:
+      'Explanation: It is the alcohol in drinks that affects human performance. A drink can come in different forms like beer, wine, or liquor, but they all contain the same amount of alcohol. Alcohol impairs muscle coordination, reaction time, depth perception, night vision, and judgment and inhibition, which can lead to dangerous driving behaviors.'
+  },
+  {
+    id: 235,
+    title: 'What should you do first in case of a fire in your vehicle?',
+    options: {
+      a: 'Try to put out the fire immediately',
+      b: 'Drive the vehicle to a service station',
+      c: 'Pull off the road and park in an open area'
+    },
+    answer: 'c',
+    explanation: 'Explanation: The first step in case of a fire in your vehicle is to pull off the road and park in an open area away from anything that might catch fire. Notify emergency services of your problem and location.'
+  },
+  {
+    id: 236,
+    title: 'What should you do before trying to put out a fire in your vehicle?',
+    options: {
+      a: 'Park in a service station',
+      b: 'Open the hood of the vehicle',
+      c: 'Make sure the fire does not spread any further'
+    },
+    answer: 'c',
+    explanation:
+      'Explanation: Before trying to put out a fire in your vehicle, make sure that it does not spread any further. This includes turning off the engine in case of an engine fire and keeping the doors of a cargo van or box trailer shut in case of a cargo fire containing hazardous materials.'
+  },
+  {
+    id: 237,
+    title: 'What should you do when using a fire extinguisher to put out a fire?',
+    options: {
+      a: 'Stay as close to the fire as possible',
+      b: 'Aim at the flames, not the source or base of the fire',
+      c: 'Position yourself upwind'
+    },
+    answer: 'c',
+    explanation:
+      'Explanation: When using a fire extinguisher to put out a fire, you should position yourself upwind and let the wind carry the extinguisher to the fire. Aim at the source or base of the fire and stay as far away from the fire as possible. Continue until the burning object has been cooled, as the absence of smoke or flame does not mean the fire cannot restart.'
+  },
+  {
+    id: 238,
+    title: 'What are the basic steps to be taken at any crash?',
+    options: {
+      a: 'Protect the area, notify authorities, and care for the injured.',
+      b: 'Move the vehicles to the side of the road, put on flashers, and set out reflective triangles.',
+      c: 'Call for assistance, determine the exact location, and wait for emergency vehicles.'
+    },
+    answer: 'a',
+    explanation: 'The basic steps to be taken at any crash are to protect the area, notify authorities, and care for the injured.'
+  },
+  {
+    id: 239,
+    title: 'What should you do to protect the crash area?',
+    options: {
+      a: 'Park away from the crash and set out reflective triangles.',
+      b: 'Try to get your vehicle to the side of the road and stop.',
+      c: 'Put on your flashers and call for assistance before getting out of your vehicle.'
+    },
+    answer: 'a',
+    explanation: 'To protect the crash area, you should park away from the crash, put on your flashers, and set out reflective triangles.'
+  },
+  {
+    id: 240,
+    title: 'What should you do if you encounter a crash and not seriously hurt?',
+    options: {
+      a: 'Act to prevent further damage or injury, protect the area, and care for the injured.',
+      b: 'Move your vehicle to the side of the road and call for assistance.',
+      c: 'Stop heavy bleeding by applying pressure to the wound.'
+    },
+    answer: 'a',
+    explanation: 'If you encounter a crash and not seriously hurt, you should act to prevent further damage or injury, protect the area, and care for the injured.'
+  },
+
+  {
+    id: 241,
+    title: 'What causes a skid?',
+    options: {
+      a: 'Driving too slow',
+      b: 'Overbraking or braking too hard',
+      c: 'Not accelerating enough'
+    },
+    answer: 'b',
+    explanation: 'Overbraking or braking too hard can cause the tires to lose their grip on the road and result in a skid.'
+  },
+  {
+    id: 242,
+    title: 'What is the most common type of skid?',
+    options: {
+      a: 'Oversteering skid',
+      b: 'Overacceleration skid',
+      c: 'Drive-wheel skid'
+    },
+    answer: 'c',
+    explanation: 'Drive-wheel skids, where the rear wheels lose traction through excessive braking or acceleration, are the most common type of skid.'
+  },
+  {
+    id: 243,
+    title: 'What should you do to correct a drive-wheel braking skid?',
+    options: {
+      a: 'Press the accelerator pedal harder',
+      b: 'Step on the brake pedal firmly',
+      c: 'Stop braking and turn quickly in the direction you want the vehicle to go'
+    },
+    answer: 'c',
+    explanation: 'To correct a drive-wheel braking skid, you should stop braking to let the rear wheels roll again and turn quickly in the direction you want the vehicle to go. You should also countersteer to prevent the vehicle from continuing to skid in the opposite direction.'
+  },
+  {
+    id: 301,
+    title: 'What should you do first to protect the crash area?',
+    options: {
+      a: 'Park in an open area, away from buildings, trees, brush, and other vehicles.',
+      b: 'Put on your flashers and park immediately next to the crash area.',
+      c: 'Set out reflective triangles to warn other traffic and park away from the crash.'
+    },
+    answer: 'c',
+    explanation: 'Explanation: To protect the crash area, put on your flashers, set out reflective triangles to warn other traffic, and park away from the crash. This will prevent further crashes and allow emergency vehicles to access the crash area.'
+  },
+  {
+    id: 302,
+    title: 'What is the most common cause of skids?',
+    options: {
+      a: 'Oversteering',
+      b: 'Overbraking',
+      c: 'Driving too fast for road conditions',
+      d: 'Overacceleration'
+    },
+    answer: 'c',
+    explanation: "Explanation: Driving too fast for road conditions is the most common cause of skids. Drivers who adjust their driving to conditions don't over-accelerate and don't have to over-brake or over-steer from too much speed."
+  },
+  {
+    id: 303,
+    title: 'What should you do to correct a drive-wheel braking skid?',
+    options: {
+      a: 'Turn quickly and jam on the brakes.',
+      b: 'Stop braking and turn the steering wheel quickly.',
+      c: 'Keep braking hard until the skid is corrected.',
+      d: 'Keep the steering wheel straight and hold the brake pedal down.'
+    },
+    answer: 'b',
+    explanation:
+      'Explanation: To correct a drive-wheel braking skid, stop braking and turn the steering wheel quickly in the direction you want the vehicle to go. This will keep the vehicle in a straight line and prevent it from sliding any further. You must turn the wheel quickly and countersteer as necessary to regain control of the vehicle.'
+  },
+  {
+    id: 304,
+    title: 'What is the best way to have both hands on the steering wheel in case of an emergency?',
+    options: {
+      a: 'Keep them on the wheel all the time',
+      b: 'Keep one hand on the wheel and the other on the gear shift',
+      c: 'Keep one hand on the wheel and the other on the door handle'
+    },
+    answer: 'a',
+    explanation: "Explanation: In order to turn quickly in case of an emergency, it's important to have a firm grip on the steering wheel with both hands. The best way to do this is to keep both hands on the wheel all the time."
+  },
+  {
+    id: 305,
+    title: 'What should you not do while turning quickly in case of an emergency?',
+    options: {
+      a: 'Apply the brake',
+      b: 'Turn more than needed to clear the obstacle',
+      c: 'Countersteer'
+    },
+    answer: 'a',
+    explanation: "Explanation: When turning quickly in an emergency, you should not apply the brake while turning. It's easy to lock the wheels while turning and cause a skid or lose control."
+  },
+  {
+    id: 306,
+    title: 'Why is it almost always better to turn to avoid an obstacle than to stop?',
+    options: {
+      a: 'Turning is more fun',
+      b: 'Turning is faster',
+      c: 'You can almost always turn to miss an obstacle more quickly than you can stop'
+    },
+    answer: 'c',
+    explanation:
+      "Explanation: In an emergency situation, you may not have enough room to stop. You can almost always turn to miss an obstacle more quickly than you can stop. However, it's important to keep in mind that top-heavy vehicles and tractors with multiple trailers may flip over when turning quickly."
+  },
+  {
+    id: 307,
+    title: 'What should you do to protect the area in case of a crash?',
+    options: {
+      a: 'Park in a service station',
+      b: 'Park in an open area, away from buildings, trees, brush, other vehicles, or anything that might catch fire',
+      c: 'Stop immediately in the middle of the road'
+    },
+    answer: 'b',
+    explanation: 'In case of a crash, the first thing to do is to protect the area. You should park in an open area, away from buildings, trees, brush, other vehicles, or anything that might catch fire.'
+  },
+  {
+    id: 308,
+    title: 'What is the correct way to brake in an emergency?',
+    options: {
+      a: 'Push down on the brake pedal as hard as you can',
+      b: 'Apply the brakes as hard as you can without locking the wheels',
+      c: 'Release the brakes and pump them repeatedly'
+    },
+    answer: 'b',
+    explanation:
+      'In an emergency, you should brake in a way that will keep your vehicle in a straight line and allow you to turn if it becomes necessary. You can use the "controlled braking" method or the "stab braking" method. With the controlled braking method, you apply the brakes as hard as you can without locking the wheels. If you need to make a larger steering adjustment or if the wheels lock, release the brakes. Re-apply the brakes as soon as you can.'
+  },
+  {
+    id: 309,
+    title: 'Why should you never race a train to a crossing?',
+    options: {
+      a: 'Because it is illegal',
+      b: 'Because it is impossible to judge the speed of an approaching train',
+      c: 'Because trains always have the right of way'
+    },
+    answer: 'b',
+    explanation:
+      'You should never attempt to race a train to a crossing because it is extremely difficult to judge the speed of an approaching train. It is important to reduce speed and hold it to a point which will permit you to stop short of the tracks in case a stop is necessary. Additionally, you should not rely solely upon the presence of warning signals, gates, or flagmen to warn of the approach of trains. Be especially alert at crossings that do not have gates or flashing red light signals.'
+  },
+
+  {
+    id: 310,
+    title: 'What should you do in case of a fire?',
+    options: {
+      a: 'Stay in the vehicle and call for help',
+      b: 'Park in an open area, away from buildings and notify emergency services',
+      c: 'Pull into a service station to use a fire extinguisher'
+    },
+    answer: 'b',
+    explanation: 'In case of a fire, pull off the road, park in an open area away from buildings and notify emergency services.'
+  },
+
+  {
+    id: 311,
+    title: 'What should you do to protect the crash area?',
+    options: {
+      a: 'If stopping to help, park near the crash',
+      b: 'Set out reflective triangles and park away from the crash',
+      c: 'Call for assistance before getting out of your vehicle'
+    },
+    answer: 'b',
+    explanation: 'To protect the crash area, park away from the crash, put on your flashers, and set out reflective triangles to warn other traffic.'
+  },
+
+  {
+    id: 312,
+    title: 'What is the correct way to perform emergency braking?',
+    options: {
+      a: 'Jam on the brakes as hard as you can',
+      b: 'Use controlled braking method or stab braking method',
+      c: 'Turn the wheel in the direction you want the vehicle to go'
+    },
+    answer: 'b',
+    explanation: 'In an emergency, use controlled braking or stab braking methods to keep your vehicle in a straight line and avoid locking up the wheels, which can cause a skid.'
+  },
+
+  {
+    id: 313,
+    title: 'Why is it important to check engine coolant when driving in very hot weather?',
+    options: {
+      a: 'To make sure the air conditioning is working properly',
+      b: 'To prevent engine failure and possible fire',
+      c: 'To improve fuel efficiency'
+    },
+    answer: 'b',
+    explanation: 'In hot weather, check engine coolant to prevent engine failure and possible fire. Antifreeze helps the engine under hot conditions as well as cold conditions.'
+  },
+  {
+    id: 314,
+    title: 'What should you do when driving on slippery roads?',
+    options: {
+      a: 'Drive as fast as possible',
+      b: 'Drive slowly and smoothly',
+      c: 'Avoid driving altogether'
+    },
+    answer: 'b',
+    explanation:
+      "Drive slowly and smoothly on slippery roads. If it is very slippery, you shouldn't drive at all. Start gently and slowly to get the feel of the road. Adjust turning and braking to conditions. Adjust speed and space to conditions. When driving in heavy rain or deep standing water, your brakes will get wet. Water in the brakes can cause a lack of braking power, wheel lockups, and other issues."
+  },
+
+  {
+    id: 315,
+    title: 'How can you check for ice on the road?',
+    options: {
+      a: 'Check for spray from other vehicles',
+      b: 'Check for traffic jams',
+      c: 'Check for road signs'
+    },
+    answer: 'a',
+    explanation: 'Check for ice on the road, especially bridges and overpasses. A lack of spray from other vehicles indicates ice has formed on the road. Check your mirrors and wiper blades for ice. If they have ice, the road most likely will be icy as well.'
+  },
+
+  {
+    id: 316,
+    title: 'What should you do when your brakes get wet while driving in heavy rain or deep standing water?',
+    options: {
+      a: 'Drive faster to dry the brakes',
+      b: 'Apply the brakes suddenly to remove the water',
+      c: 'Expect weaker and uneven braking power'
+    },
+    answer: 'c',
+    explanation:
+      'When driving in heavy rain or deep standing water, your brakes will get wet. Water in the brakes can cause the brakes to be weak, to apply unevenly, or to grab. This can cause lack of braking power, wheel lockups, pulling to one side or the other, and jackknife if you pull a trailer.'
+  },
+
+  {
+    id: 317,
+    title: 'Why should you never race a train to a crossing?',
+    options: {
+      a: 'Because it is illegal',
+      b: 'Because it is impossible to judge the speed of an approaching train',
+      c: 'Because trains always have the right of way',
+      d: 'Because it can result in a collision or a fatal accident'
+    },
+    answer: 'b',
+    explanation: 'Never race a train to a crossing because it is difficult to judge its speed. Reduce speed and hold it to a point that allows you to stop short of the tracks in case of emergency.'
+  },
+
+  {
+    id: 318,
+    title: 'What should you do when driving in very hot weather?',
+    options: {
+      a: 'Check tire pressure every two hours',
+      b: 'Make sure the engine cooling system has enough water and antifreeze',
+      c: 'Drive slowly and smoothly on slippery roads',
+      d: 'All of the above'
+    },
+    answer: 'd',
+    explanation: 'To drive safely in hot weather, check tire pressure every two hours, ensure there is enough engine oil and coolant, and drive slowly and smoothly on slippery roads.'
+  },
+
+  {
+    id: 319,
+    title: 'What should you do when driving in fog?',
+    options: {
+      a: 'Obey all fog-related warning signs',
+      b: 'Slow down before you enter fog',
+      c: 'Use low-beam headlights and 4-way flashers',
+      d: 'All of the above'
+    },
+    answer: 'd',
+    explanation: 'When driving in fog, obey all warning signs, slow down before entering fog, use low-beam headlights and 4-way flashers, and listen for traffic you cannot see.'
+  },
+
+  {
+    id: 320,
+    title: 'What should you do before driving at night?',
+    options: {
+      a: 'Wear sunglasses to protect your eyes',
+      b: 'Make sure your eyeglasses are scratched',
+      c: 'Clean your eyeglasses if necessary and avoid wearing sunglasses',
+      d: 'Drive without checking your eyeglasses'
+    },
+    answer: 'c',
+    explanation: 'Before driving at night, make sure you are rested, your eyeglasses are clean, and you do a complete pre-trip inspection of your vehicle. Avoid wearing sunglasses at night to improve your visibility. '
+  },
+
+  {
+    id: 321,
+    title: 'What should you do to avoid blinding other drivers with your headlights?',
+    options: {
+      a: 'Leave your headlights on high beams at all times',
+      b: 'Dim your lights when you see a vehicle approaching within 1000 feet',
+      c: 'Dim your lights within 500 feet of an oncoming vehicle or when following another vehicle within 500 feet',
+      d: "Don't dim your lights at all"
+    },
+    answer: 'c',
+    explanation:
+      'To avoid blinding other drivers, dim your lights within 500 feet of an oncoming vehicle and when following another vehicle within 500 feet. Glare from your headlights can cause problems for drivers coming toward you and bother drivers going in the same direction you are, when your lights shine in their rearview mirrors.'
+  },
+
+  {
+    id: 322,
+    title: "What should you do if other drivers don't dim their lights when approaching you?",
+    options: {
+      a: 'Flash your headlights to get their attention',
+      b: 'Put your high beams on to show them how it feels',
+      c: 'Look directly at their lights to show your frustration',
+      d: "Don't try to get back at them by putting your own high beams on"
+    },
+    answer: 'd',
+    explanation: "If other drivers don't put their low beams on, don't try to 'get back at them' by putting your own high beams on. This increases glare for oncoming drivers and increases the chance of a crash. Instead, look slightly to the right at a right lane or edge marking, if available."
+  },
+  {
+    id: 323,
+    title: 'What must you do to avoid blinding other drivers at night?',
+    options: {
+      a: 'Use your high beams when following another vehicle within 500 feet.',
+      b: 'Look directly at the lights of oncoming vehicles.',
+      c: 'Dim your lights within 500 feet of an oncoming vehicle and when following another vehicle within 500 feet.',
+      d: 'Turn off your headlights when driving on well-lit roads.'
+    },
+    answer: 'c',
+    explanation:
+      'To avoid blinding other drivers at night, you must dim your lights within 500 feet of an oncoming vehicle and when following another vehicle within 500 feet. Additionally, you should avoid looking directly at the lights of oncoming vehicles and should not use your high beams when following another vehicle within 500 feet.'
+  },
+  {
+    id: 324,
+    title: 'What is the best advice for driving in fog?',
+    options: {
+      a: 'Drive as you normally would.',
+      b: 'Obey all fog-related warning signs and drive slowly.',
+      c: 'Turn on your high-beam headlights.',
+      d: 'Stop along the side of the road until visibility improves.'
+    },
+    answer: 'b',
+    explanation:
+      "The best advice for driving in fog is to obey all fog-related warning signs and drive slowly. Use low-beam headlights and fog lights for best visibility, turn on your 4-way flashers, and be aware of vehicles on the side of the roadway. Avoid passing other vehicles and don't stop along the side of the road unless absolutely necessary."
+  },
+  {
+    id: 325,
+    title: 'Why should you avoid making any gestures that might anger another driver?',
+    options: {
+      a: 'To show your disapproval',
+      b: 'To entertain other drivers',
+      c: 'To avoid angering other drivers',
+      d: 'To get the attention of other drivers'
+    },
+    answer: 'c',
+    explanation:
+      "It's important to avoid making any gestures that might anger another driver, even seemingly harmless expressions of irritation like shaking your head. This is because it can lead to road rage, which can be dangerous. Instead, be a cautious and courteous driver and give other drivers the benefit of the doubt."
+  },
+  {
+    id: 326,
+    title: 'Why should you avoid making any gestures that might anger another driver?',
+    options: {
+      a: 'To show your disapproval',
+      b: 'To entertain other drivers',
+      c: 'To avoid angering other drivers',
+      d: 'To make other drivers more aggressive'
+    },
+    answer: 'c',
+    explanation:
+      "It's important to avoid making any gestures that might anger another driver, even seemingly harmless expressions of irritation like shaking your head. This is because it can lead to road rage, which can be dangerous. Instead, be a cautious and courteous driver and give other drivers the benefit of the doubt."
+  },
+  {
+    id: 327,
+    title: 'What should you do if your vehicle starts to hydroplane?',
+    options: {
+      a: 'Slam on the brakes',
+      b: 'Accelerate quickly',
+      c: 'Steer in the opposite direction',
+      d: 'Ease off the gas and steer straight'
+    },
+    answer: 'd',
+    explanation: 'If your vehicle starts to hydroplane, the best thing to do is to ease off the gas and steer straight. Avoid braking suddenly or making sudden turns, as this can cause you to lose control of the vehicle. Once you have regained control, you can slowly begin to accelerate again.'
+  },
+  {
+    id: 328,
+    title: 'Why should you avoid making any gestures that might anger another driver?',
+    options: {
+      a: 'To show your disapproval',
+      b: 'To entertain other drivers',
+      c: 'To avoid angering other drivers',
+      d: 'To assert dominance on the road'
+    },
+    answer: 'c',
+    explanation:
+      "It's important to avoid making any gestures that might anger another driver, even seemingly harmless expressions of irritation like shaking your head. This is because it can lead to road rage, which can be dangerous. Instead, be a cautious and courteous driver and give other drivers the benefit of the doubt."
+  },
+  {
+    id: 329,
+    title: 'What should you do if confronted by an aggressive driver?',
+    options: {
+      a: 'Challenge them by speeding up',
+      b: "Make eye contact to show you're not intimidated",
+      c: 'Ignore them and keep driving normally',
+      d: 'Get out of their way'
+    },
+    answer: 'd',
+    explanation:
+      'If confronted by an aggressive driver, the first thing you should do is make every attempt to get out of their way. Do not challenge them by speeding up or attempting to hold your own in your travel lane. Avoid eye contact and ignore gestures. Report aggressive drivers to the appropriate authorities by providing a vehicle description, license number, location, and, if possible, direction of travel. If you have a cell phone and can do it safely, call the police. If an aggressive driver is involved in a crash farther down the road, stop a safe distance from the crash scene, wait for the police to arrive, and report the driving behavior that you witnessed.'
+  },
+  {
+    id: 330,
+    title: 'What is the most important space around your vehicle?',
+    options: {
+      a: 'The space behind your vehicle',
+      b: 'The space on either side of your vehicle',
+      c: 'The space above your vehicle',
+      d: 'The space ahead of your vehicle'
+    },
+    answer: 'd',
+    explanation: 'Of all the space around your vehicle, it is the area ahead of the vehicle that is most important. This is because you need space ahead in case you must suddenly stop, and following too closely can be a major cause of accidents.'
+  },
+  {
+    id: 340,
+    title: 'How much space should you keep in front of you, according to one good rule?',
+    options: {
+      a: 'One second for each 5 feet of vehicle length',
+      b: 'One second for each 15 feet of vehicle length',
+      c: 'One second for each 20 feet of vehicle length',
+      d: 'One second for each 10 feet of vehicle length'
+    },
+    answer: 'd',
+    explanation:
+      "One good rule says you need at least one second for each 10 feet of vehicle length at speeds below 40 mph. At greater speeds, you must add 1 second for safety. For example, if you are driving a 40-foot vehicle, you should leave 4 seconds between you and the vehicle ahead. In a 60-foot rig, you'll need 6 seconds. Over 40 mph, you'd need 5 seconds for a 40-foot vehicle and 7 seconds for a 60-foot vehicle."
+  },
+  {
+    id: 341,
+    title: "What should you do if you're driving a 40-foot truck and only counted up to 2 seconds when checking your following distance?",
+    options: {
+      a: 'Increase your speed to create more space',
+      b: 'Continue driving at the same speed and distance',
+      c: 'Brake immediately to create more space',
+      d: 'Drop back a little and count again until you have 4 seconds of following distance'
+    },
+    answer: 'd',
+    explanation:
+      "If you're driving a 40-foot truck and only counted up to 2 seconds when checking your following distance, you're too close. Drop back a little and count again until you have 4 seconds of following distance (or 5 seconds, if you're going over 40 mph). After a little practice, you will know how far back you should be. Remember to add 1 second for speeds above 40 mph."
+  },
+  {
+    id: 342,
+    title: 'What should you consider when selecting a speed on a downgrade?',
+    options: {
+      a: 'Total length of the vehicle',
+      b: 'The weight of the vehicle and cargo',
+      c: 'The distance to the next rest stop',
+      d: 'The color of the vehicle'
+    },
+    answer: 'b',
+    explanation: 'When selecting a speed on a downgrade, you should consider the total weight of the vehicle and cargo, as well as the length and steepness of the grade, road conditions, and weather.'
+  },
+  {
+    id: 343,
+    title: 'What is the greatest factor in controlling your speed on downgrades?',
+    options: {
+      a: 'The brakes',
+      b: 'The accelerator',
+      c: 'The steering wheel',
+      d: 'The headlights'
+    },
+    answer: 'a',
+    explanation: 'You must use the braking effect of the engine as the principal way of controlling your speed on downgrades. Save your brakes so you will be able to slow or stop as required by road and traffic conditions.'
+  },
+  {
+    id: 344,
+    title: 'What should you consider when selecting a speed on a downgrade?',
+    options: {
+      a: 'Total length of the vehicle',
+      b: 'The weight of the vehicle and cargo',
+      c: 'The distance to the next rest stop',
+      d: 'All of the above'
+    },
+    answer: 'b',
+    explanation: 'When selecting a speed on a downgrade, you should consider the total weight of the vehicle and cargo, as well as the length and steepness of the grade, road conditions, and weather.'
+  },
+  {
+    id: 345,
+    title: 'What is perception distance in relation to stopping distance?',
+    options: {
+      a: 'The distance your vehicle will travel while braking',
+      b: 'The distance your vehicle will travel before physically hitting the brakes',
+      c: 'The distance your vehicle travels from the time your eyes see a hazard until your brain recognizes it',
+      d: 'The distance your vehicle travels after hitting the brakes'
+    },
+    answer: 'c',
+    explanation: 'Perception distance is the distance your vehicle travels from the time your eyes see a hazard until your brain recognizes it. It is an important factor in determining stopping distance.'
+  },
+  {
+    id: 346,
+    title: 'What is the average reaction time for an alert driver?',
+    options: {
+      a: '1 second to 1.5 seconds',
+      b: '2 seconds to 2.5 seconds',
+      c: '3 seconds to 3.5 seconds',
+      d: '0.5 seconds to 1 second'
+    },
+    answer: 'a',
+    explanation: 'The average driver has a reaction time of ¾ second to 1 second. This means that at 55 mph, the vehicle will travel 61 feet before the driver physically hits the brakes in response to a hazard seen ahead.'
+  },
+  {
+    id: 347,
+    title: 'What is the total stopping distance?',
+    options: {
+      a: 'The distance your vehicle will travel while accelerating',
+      b: 'The distance your vehicle will travel before physically hitting the brakes',
+      c: 'The sum of perception distance, reaction distance, and braking distance',
+      d: 'The distance your vehicle will travel in reverse'
+    },
+    answer: 'c',
+    explanation: 'Total stopping distance is the sum of perception distance, reaction distance, and braking distance. It is the total minimum distance your vehicle will travel, in ideal conditions with everything considered until you can bring your vehicle to a complete stop.'
   }
 ]
