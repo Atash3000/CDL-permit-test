@@ -1096,7 +1096,7 @@ export const airBrakesData = [
 
   {
     id: 91,
-    text: 'What are the three different braking systems used in air brakes?',
+    title: 'What are the three different braking systems used in air brakes?',
     options: {
       a: 'Service brake, oil brake, emergency brake',
       b: 'Service brake, parking brake, oil brake',
@@ -1108,7 +1108,7 @@ export const airBrakesData = [
   },
   {
     id: 92,
-    text: 'What is the purpose of a dual air brake system?',
+    title: 'What is the purpose of a dual air brake system?',
     options: {
       a: 'To have two different types of brakes on a vehicle',
       b: 'To increase the stopping distance of a vehicle',
@@ -1120,7 +1120,7 @@ export const airBrakesData = [
   },
   {
     id: 93,
-    text: 'What is the purpose of checking the slack adjusters on S-cam brakes?',
+    title: 'What is the purpose of checking the slack adjusters on S-cam brakes?',
     options: {
       a: 'To check if the brakes are working properly',
       b: 'To see if the brake drums are cracked',
@@ -1133,7 +1133,7 @@ export const airBrakesData = [
   },
   {
     id: 94,
-    text: 'The purpose of the low air pressure warning signal in air brakes is ____',
+    title: 'The purpose of the low air pressure warning signal in air brakes is ____',
     options: {
       a: 'To indicate when the brakes need to be adjusted',
       b: 'To indicate when the air pressure is low',
@@ -1146,7 +1146,7 @@ export const airBrakesData = [
   },
   {
     id: 95,
-    text: 'The purpose of a dual air brake system is _____',
+    title: 'The purpose of a dual air brake system is _____',
     options: {
       a: 'To have two different types of brakes on a vehicle',
       b: 'To increase the stopping distance of a vehicle',
