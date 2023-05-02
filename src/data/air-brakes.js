@@ -50,7 +50,7 @@ export const airBrakesData = [
 
   {
     id: 5,
-    title: 'The yellow ABS malfunction lamps on vehicles with ABS indicate that ____________________.',
+    title: 'The yellow ABS malfunction lamps on vehicles with ABS indicate that _____.',
     options: {
       a: 'The vehicle is low on brake fluid',
       b: 'The vehicle needs an oil change',
@@ -74,7 +74,7 @@ export const airBrakesData = [
   },
   {
     id: 7,
-    title: 'The yellow ABS malfunction lamps on trailers are located on _____________.',
+    title: 'The yellow ABS malfunction lamps on trailers are located on ____.',
     options: {
       a: ' the right side, either on the front or rear corner',
       b: ' the left side, either on the front or rear corner',
@@ -86,7 +86,7 @@ export const airBrakesData = [
   },
   {
     id: 8,
-    title: 'Dollies manufactured on or after March 1, 1998 are required to have ABS malfunction lamps on _____________.',
+    title: 'Dollies manufactured on or after March 1, 1998 are required to have ABS malfunction lamps on ____.',
     options: {
       a: 'both sides',
       b: 'the right side',
